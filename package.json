@@ -1,0 +1,16 @@
+{
+  "name": "web-document",
+  "version": "1.0.0",
+  "description": "静态网站搭建",
+  "main": "index.js",
+  "repository": "https://gitee.com/wenatie/web-document.git",
+  "author": "文铁铁 <1179131421@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.41"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
