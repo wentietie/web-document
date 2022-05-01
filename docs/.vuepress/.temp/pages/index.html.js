@@ -32,12 +32,12 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651136499000,
+    "updatedTime": 1651408368000,
     "contributors": [
       {
         "name": "文铁铁",
         "email": "1179131421@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

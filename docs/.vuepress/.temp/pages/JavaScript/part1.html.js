@@ -109,12 +109,12 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1651408101000,
+    "updatedTime": 1651408368000,
     "contributors": [
       {
         "name": "文铁铁",
         "email": "1179131421@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
