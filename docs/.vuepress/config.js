@@ -7,7 +7,15 @@ module.exports = {
     theme: defaultTheme({
         navbar: [
             {text: '首页', link: '/' },
-            {text: '你不知道的JavaScript', link: '/JavaScript/' }
+            {text: '你不知道的JavaScript', link: '/JavaScript/part1.md' }
         ],
+        sidebar: {
+            '/JavaScript/': [
+                {
+                    text: '你不知道的JavaScript',
+                    children: ['/JavaScript/part1.md'],
+                },
+            ],
+        }
     }),
 }

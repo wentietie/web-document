@@ -85,5 +85,26 @@
 
 <span class="token function">foo</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 2, 4, 12</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>在这个例子中有三个逐级嵌套的作用域。为了帮助理解，可以将它们想象成几个逐级包含的气泡。</p>
-<p><img src="C:\Users\LYC\Desktop\web-document\docs\JavaScript\images\1651217604(1).jpg" alt="1651217604(1)"></p>
+<p><img src="@source/JavaScript/images/1651217604(1).jpg" alt="1651217604(1)"></p>
+<ol>
+<li>包含着整个全局作用域，其中只有一个标识符：foo。</li>
+<li>包含着 foo 所创建的作用域，其中有三个标识符：a、bar 和 b。</li>
+<li>包含着 bar 所创建的作用域，其中只有一个标识符：c。</li>
+</ol>
+<div class="custom-container tip"><p class="custom-container-title">遮蔽效应</p>
+<ul>
+<li>作用域查找会在找到第一个匹配的标识符时停止。在多层的嵌套作用域中可以定义同名的标识符，这叫作<strong>遮蔽效应</strong></li>
+<li>抛开遮蔽效应，作用域查找始终从运行时所处的最内部作用域开始，逐级向外或者说向上进行，直到遇见第一个匹配的标识符为止。</li>
+</ul>
+</div>
+<p>::: 注
+全局变量会自动成为全局对象（比如浏览器中的 window 对象）的属性。可以通过形如window.a的方式去查找变量，绕开遮蔽效应
+:::</p>
+<h3 id="欺骗词法" tabindex="-1"><a class="header-anchor" href="#欺骗词法" aria-hidden="true">#</a> 欺骗词法</h3>
+<p>eval方法和with方法。
+eval会对js的性能产生影响，不建议使用。
+另外一个不推荐使用 eval和with 的原因是会被严格模式所影响（限制）。with 被完全禁止，而在保留核心功能的前提下，间接或非安全地使用
+eval也被禁止了。</p>
+<h2 id="函数作用域和块作用域" tabindex="-1"><a class="header-anchor" href="#函数作用域和块作用域" aria-hidden="true">#</a> 函数作用域和块作用域</h2>
+<h3 id="函数中的作用域" tabindex="-1"><a class="header-anchor" href="#函数中的作用域" aria-hidden="true">#</a> 函数中的作用域</h3>
 </template>

@@ -3,7 +3,7 @@ home: true
 heroImage: 
 actions:
   - text: '开始学习'
-    link: /JavaScript/
+    link: /JavaScript/part1
     type: primary
 features:
   - title: 你不知道的JavaScript上

@@ -60,26 +60,63 @@ export const data = {
           "title": "函数中的作用域",
           "slug": "函数中的作用域",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "块级作用域",
+          "slug": "块级作用域",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "提升",
+      "slug": "提升",
+      "children": [
+        {
+          "level": 3,
+          "title": "先有鸡还是先有蛋",
+          "slug": "先有鸡还是先有蛋",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "变量提升",
+          "slug": "变量提升",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "函数优先",
+          "slug": "函数优先",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "作用域闭包",
+      "slug": "作用域闭包",
+      "children": [
+        {
+          "level": 3,
+          "title": "模块",
+          "slug": "模块",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1651408101000,
+    "contributors": [
+      {
+        "name": "文铁铁",
+        "email": "1179131421@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "JavaScript/part1.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

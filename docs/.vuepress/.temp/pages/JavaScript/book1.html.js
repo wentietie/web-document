@@ -41,6 +41,25 @@ export const data = {
           "title": "词法阶段",
           "slug": "词法阶段",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "欺骗词法",
+          "slug": "欺骗词法",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "函数作用域和块作用域",
+      "slug": "函数作用域和块作用域",
+      "children": [
+        {
+          "level": 3,
+          "title": "函数中的作用域",
+          "slug": "函数中的作用域",
+          "children": []
         }
       ]
     }
