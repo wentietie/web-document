@@ -5,16 +5,33 @@ export const themeData = {
       "link": "/"
     },
     {
-      "text": "你不知道的JavaScript",
-      "link": "/JavaScript/part1.md"
+      "text": "前端基础",
+      "children": [
+        {
+          "text": "ES6入门",
+          "link": "/JavaScript/es6/es6.md"
+        },
+        {
+          "text": "你不知道的Javascript",
+          "link": "/JavaScript/youdontknowjs/part1.md"
+        }
+      ]
     }
   ],
   "sidebar": {
-    "/JavaScript/": [
+    "/JavaScript/es6/": [
+      {
+        "text": "ES6入门",
+        "children": [
+          "/JavaScript/es6/es6.md"
+        ]
+      }
+    ],
+    "/JavaScript/youdontknowjs/": [
       {
         "text": "你不知道的JavaScript",
         "children": [
-          "/JavaScript/part1.md"
+          "/JavaScript/youdontknowjs/part1.md"
         ]
       }
     ]
@@ -46,4 +63,17 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

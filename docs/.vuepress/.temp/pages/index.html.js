@@ -9,22 +9,22 @@ export const data = {
     "actions": [
       {
         "text": "开始学习",
-        "link": "/JavaScript/part1",
+        "link": "/JavaScript/es6/es6.md",
         "type": "primary"
       }
     ],
     "features": [
       {
-        "title": "你不知道的JavaScript上",
-        "details": "手打笔记。"
+        "title": "前端基础",
+        "details": "你不知道的JavaScript手打笔记。"
       },
       {
-        "title": "你不知道的JavaScript中",
-        "details": "手打笔记。"
+        "title": "前端框架",
+        "details": "vue学习笔记、深入浅出vue。"
       },
       {
-        "title": "你不知道的JavaScript下",
-        "details": "手打笔记。"
+        "title": "个人随笔",
+        "details": "日常随笔。"
       }
     ],
     "footer": "MIT Licensed | by vuePress | 个人学习笔记"
@@ -42,4 +42,17 @@ export const data = {
     ]
   },
   "filePathRelative": "README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

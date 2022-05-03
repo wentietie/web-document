@@ -7,15 +7,35 @@ module.exports = {
     theme: defaultTheme({
         navbar: [
             {text: '首页', link: '/' },
-            {text: '你不知道的JavaScript', link: '/JavaScript/part1.md' }
+            {
+                text: '前端基础',
+                children: [
+                    {
+                        text: 'ES6入门',
+                        link: '/JavaScript/es6/es6.md'
+                    },
+                    {
+                        text: '你不知道的Javascript',
+                        link: '/JavaScript/youdontknowjs/part1.md'
+                    },
+
+                ],
+            }
         ],
         sidebar: {
-            '/JavaScript/': [
+            '/JavaScript/es6/': [
+                {
+                    text: 'ES6入门',
+                    children: ['/JavaScript/es6/es6.md'],
+                },
+
+            ],
+            '/JavaScript/youdontknowjs/': [
                 {
                     text: '你不知道的JavaScript',
-                    children: ['/JavaScript/part1.md'],
+                    children: ['/JavaScript/youdontknowjs/part1.md'],
                 },
-            ],
+            ]
         }
     }),
 }
