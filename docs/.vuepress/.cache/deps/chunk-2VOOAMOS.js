@@ -274,4 +274,4 @@ export {
   toNumber,
   getGlobalThis
 };
-//# sourceMappingURL=chunk-E2JX26XA.js.map
+//# sourceMappingURL=chunk-2VOOAMOS.js.map

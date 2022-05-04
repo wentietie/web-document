@@ -12,7 +12,7 @@ module.exports = {
                 children: [
                     {
                         text: 'ES6入门',
-                        link: '/JavaScript/es6/es6.md'
+                        link: '/JavaScript/es6/es6-1.md'
                     },
                     {
                         text: '你不知道的Javascript',
@@ -26,7 +26,15 @@ module.exports = {
             '/JavaScript/es6/': [
                 {
                     text: 'ES6入门',
-                    children: ['/JavaScript/es6/es6.md'],
+                    children: [
+                        '/JavaScript/es6/es6-1.md',
+                        '/JavaScript/es6/es6-2.md',
+                        '/JavaScript/es6/es6-3.md',
+                        '/JavaScript/es6/es6-4.md',
+                        '/JavaScript/es6/es6-5.md',
+                        '/JavaScript/es6/es6-6.md',
+                        '/JavaScript/es6/es6-7.md',
+                    ],
                 },
 
             ],

@@ -9,7 +9,7 @@ export const data = {
     "actions": [
       {
         "text": "开始学习",
-        "link": "/JavaScript/es6/es6.md",
+        "link": "/JavaScript/es6/es6-1.md",
         "type": "primary"
       }
     ],
@@ -32,12 +32,12 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651408368000,
+    "updatedTime": 1651563024000,
     "contributors": [
       {
         "name": "文铁铁",
         "email": "1179131421@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },

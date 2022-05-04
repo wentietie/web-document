@@ -3,7 +3,7 @@ home: true
 heroImage: 
 actions:
   - text: '开始学习'
-    link: /JavaScript/es6/es6.md
+    link: /JavaScript/es6/es6-1.md
     type: primary
 features:
   - title: 前端基础

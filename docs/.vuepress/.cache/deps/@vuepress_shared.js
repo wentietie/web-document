@@ -3,7 +3,7 @@ import {
   isFunction,
   isPromise,
   isString
-} from "./chunk-E2JX26XA.js";
+} from "./chunk-2VOOAMOS.js";
 import "./chunk-FEFTYQ2P.js";
 
 // node_modules/@vuepress/shared/dist/index.js
