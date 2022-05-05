@@ -16,6 +16,19 @@ export const themeData = {
           "link": "/JavaScript/youdontknowjs/part1.md"
         }
       ]
+    },
+    {
+      "text": "工具学习",
+      "children": [
+        {
+          "text": "GIT",
+          "link": "/gongjushu/git.md"
+        }
+      ]
+    },
+    {
+      "text": "随笔笔记",
+      "link": "/notes/xmlhttprequest"
     }
   ],
   "sidebar": {
@@ -29,7 +42,8 @@ export const themeData = {
           "/JavaScript/es6/es6-4.md",
           "/JavaScript/es6/es6-5.md",
           "/JavaScript/es6/es6-6.md",
-          "/JavaScript/es6/es6-7.md"
+          "/JavaScript/es6/es6-7.md",
+          "/JavaScript/es6/es6-8.md"
         ]
       }
     ],
@@ -38,6 +52,28 @@ export const themeData = {
         "text": "你不知道的JavaScript",
         "children": [
           "/JavaScript/youdontknowjs/part1.md"
+        ]
+      }
+    ],
+    "/notes/": [
+      {
+        "text": "随笔",
+        "children": [
+          {
+            "text": "XMLHttpRequest",
+            "link": "/notes/xmlhttprequest.md"
+          }
+        ]
+      }
+    ],
+    "/gongjushu/": [
+      {
+        "text": "工具学习",
+        "children": [
+          {
+            "text": "git",
+            "link": "/gongjushu/git.md"
+          }
         ]
       }
     ]

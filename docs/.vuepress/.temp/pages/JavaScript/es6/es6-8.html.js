@@ -1,0 +1,65 @@
+export const data = {
+  "key": "v-62fff294",
+  "path": "/JavaScript/es6/es6-8.html",
+  "title": "数组的扩展",
+  "lang": "zh-CN",
+  "frontmatter": {},
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "扩展运算符",
+      "slug": "扩展运算符",
+      "children": [
+        {
+          "level": 3,
+          "title": "扩展运算符的应用",
+          "slug": "扩展运算符的应用",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Array.from()",
+      "slug": "array-from",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Array.of()",
+      "slug": "array-of",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "copyWithin()",
+      "slug": "copywithin",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "find() 和 findIndex()",
+      "slug": "find-和-findindex",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "JavaScript/es6/es6-8.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

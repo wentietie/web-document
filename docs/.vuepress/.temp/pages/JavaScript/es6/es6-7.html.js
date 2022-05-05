@@ -71,13 +71,37 @@ export const data = {
           "title": "尾递归",
           "slug": "尾递归",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "尾递归优化的实现",
+          "slug": "尾递归优化的实现",
+          "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "函数参数的尾逗号",
+      "slug": "函数参数的尾逗号",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Function.prototype.toString()",
+      "slug": "function-prototype-tostring",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1651676334000,
+    "contributors": [
+      {
+        "name": "TianhuaTang",
+        "email": "995850284@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "JavaScript/es6/es6-7.md"
 }

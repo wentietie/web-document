@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-6d3d064e",
-  "path": "/JavaScript/es6/es6-5.html",
-  "title": "正则的扩展",
+  "key": "v-b9217576",
+  "path": "/notes/xmlhttprequest,fetch%E5%92%8Caxios.html",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651676334000,
-    "contributors": [
-      {
-        "name": "TianhuaTang",
-        "email": "995850284@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "JavaScript/es6/es6-5.md"
+  "filePathRelative": "notes/xmlhttprequest,fetch和axios.md"
 }
 
 if (import.meta.webpackHot) {
