@@ -39,8 +39,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1651977252000,
+    "contributors": [
+      {
+        "name": "TianhuaTang",
+        "email": "995850284@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "formwork/vue/vueyuanli.md"
 }
