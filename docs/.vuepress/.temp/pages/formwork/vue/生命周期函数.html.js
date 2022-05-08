@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-605b0f1b",
-  "path": "/gongjushu/git.html",
-  "title": "pro git 中文版",
+  "key": "v-e10a72b8",
+  "path": "/formwork/vue/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0.html",
+  "title": "生命周期函数",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651743257000,
-    "contributors": [
-      {
-        "name": "文铁铁",
-        "email": "1179131421@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "gongjushu/git.md"
+  "filePathRelative": "formwork/vue/smzqhs.md"
 }
 
 if (import.meta.webpackHot) {

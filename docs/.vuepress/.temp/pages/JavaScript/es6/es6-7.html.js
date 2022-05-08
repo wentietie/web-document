@@ -94,11 +94,16 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1651676334000,
+    "updatedTime": 1651743257000,
     "contributors": [
       {
         "name": "TianhuaTang",
         "email": "995850284@qq.com",
+        "commits": 1
+      },
+      {
+        "name": "文铁铁",
+        "email": "1179131421@qq.com",
         "commits": 1
       }
     ]

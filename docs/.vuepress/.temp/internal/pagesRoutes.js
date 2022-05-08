@@ -3,7 +3,13 @@ import { Vuepress } from '@vuepress/client'
 const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-605b0f1b","/gongjushu/git.html",{"title":"pro git 中文版"},["/gongjushu/git","/gongjushu/git.md"]],
+  ["v-2355fe3d","/notes/hwdj.html",{"title":"宏任务、微任务、队列和计划"},["/notes/hwdj","/notes/hwdj.md"]],
   ["v-9b8495bc","/notes/xmlhttprequest.html",{"title":"XMLHttpRequest,fetch和axios"},["/notes/xmlhttprequest","/notes/xmlhttprequest.md"]],
+  ["v-530baa8b","/formwork/vue/fzzj.html",{"title":"父子组件"},["/formwork/vue/fzzj","/formwork/vue/fzzj.md"]],
+  ["v-6e30119a","/formwork/vue/smzqhs.html",{"title":"生命周期函数"},["/formwork/vue/smzqhs","/formwork/vue/smzqhs.md"]],
+  ["v-023ff66c","/formwork/vue/vue-slsx.html",{"title":"vue实例属性"},["/formwork/vue/vue-slsx","/formwork/vue/vue-slsx.md"]],
+  ["v-79ee5b57","/formwork/vue/vueyuanli.html",{"title":"VUE2原理分析"},["/formwork/vue/vueyuanli","/formwork/vue/vueyuanli.md"]],
+  ["v-7d250bb3","/formwork/vue/ysbd.html",{"title":"样式绑定"},["/formwork/vue/ysbd","/formwork/vue/ysbd.md"]],
   ["v-7ae3cb46","/JavaScript/es6/es6-1.html",{"title":"let 和 const 命令"},["/JavaScript/es6/es6-1","/JavaScript/es6/es6-1.md"]],
   ["v-777a1a08","/JavaScript/es6/es6-2.html",{"title":"变量的解构赋值"},["/JavaScript/es6/es6-2","/JavaScript/es6/es6-2.md"]],
   ["v-741068ca","/JavaScript/es6/es6-3.html",{"title":"字符串的扩展"},["/JavaScript/es6/es6-3","/JavaScript/es6/es6-3.md"]],

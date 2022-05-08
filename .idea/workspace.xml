@@ -2,69 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8394324f-0058-4b7e-adf1-759a1d079b4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-8.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-8.html.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/index.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/index.html.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/xmlhttprequest,fetch和axios.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/xmlhttprequest,fetch和axios.html.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/JavaScript/es6/es6-8.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/gongjushu/git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/notes/xmlhttprequest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vue-slsx.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vue-slsx.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vue实例属性.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vue实例属性.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/样式绑定.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/样式绑定.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/父子组件.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/父子组件.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/生命周期函数.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/生命周期函数.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/hwdj.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/hwdj.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/宏任务、微任务、队列和计划.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/宏任务、微任务、队列和计划.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/fzzj.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/images/smzqhs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/smzqhs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/vue-slsx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/vueyuanli.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/formwork/vue/ysbd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/notes/hwdj.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vue_devtools-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vue_devtools-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vue_devtools-api.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vue_devtools-api.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vuepress_shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vuepress_shared.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vuepress_shared.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vuepress_shared.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vueuse_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vueuse_core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vueuse_core.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vueuse_core.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-2VOOAMOS.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-2VOOAMOS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-2VOOAMOS.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-2VOOAMOS.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-FEFTYQ2P.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-FEFTYQ2P.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-FEFTYQ2P.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-FEFTYQ2P.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-NNPAYWKE.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-NNPAYWKE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-NNPAYWKE.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-NNPAYWKE.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-S4LYWKW6.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-S4LYWKW6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-S4LYWKW6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-S4LYWKW6.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue-router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppEnhances.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppEnhances.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppRootComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppRootComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppSetups.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppSetups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/layoutComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/layoutComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/siteData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/themeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/themeData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/404.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-1.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-1.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-1.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-1.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-2.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-2.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-2.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-2.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-3.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-3.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-3.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-3.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-4.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-4.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-4.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-4.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-5.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-5.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-5.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-5.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-6.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-6.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-6.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-6.html.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-7.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-7.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-7.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-7.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/youdontknowjs/part1.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/youdontknowjs/part1.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/youdontknowjs/part1.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/youdontknowjs/part1.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/index.html.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/vite-root/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/vite-root/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-8.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/JavaScript/es6/es6-8.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/gongjushu/git.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/gongjushu/git.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JavaScript/es6/es6-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JavaScript/es6/es6-7.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,17 +72,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/notes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\项目\博客\web-document\docs\notes" />
+      <recent name="F:\项目\博客\web-document\docs\formwork\vue" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\项目\博客\web-document\docs" />
       <recent name="C:\Users\LYC\Desktop\web-document\docs\JavaScript\youdontknowjs" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:dev">
+  <component name="RunManager" selected="Node.js.test.js (1)">
+    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/docs/formwork/vue/test/test.js" working-dir="$PROJECT_DIR$/docs/formwork/vue/test">
+      <method v="2" />
+    </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/docs/JavaScript/test.js" working-dir="$PROJECT_DIR$/docs/JavaScript">
       <method v="2" />
     </configuration>
@@ -149,12 +125,14 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.test.js" />
+      <item itemvalue="Node.js.test.js (1)" />
       <item itemvalue="npm.docs:dev" />
       <item itemvalue="npm.docs:build" />
       <item itemvalue="npm.deploy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="Node.js.test.js" />
@@ -179,7 +157,9 @@
       <workItem from="1651408542307" duration="2282000" />
       <workItem from="1651550718716" duration="3918000" />
       <workItem from="1651712068005" duration="3058000" />
-      <workItem from="1651728362097" duration="12399000" />
+      <workItem from="1651728362097" duration="16384000" />
+      <workItem from="1651797536480" duration="13183000" />
+      <workItem from="1651883707924" duration="675000" />
     </task>
     <servers />
   </component>

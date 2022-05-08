@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-605b0f1b",
-  "path": "/gongjushu/git.html",
-  "title": "pro git 中文版",
+  "key": "v-1ad8a648",
+  "path": "/formwork/vue/%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6.html",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651743257000,
-    "contributors": [
-      {
-        "name": "文铁铁",
-        "email": "1179131421@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "gongjushu/git.md"
+  "filePathRelative": "formwork/vue/fzzj.md"
 }
 
 if (import.meta.webpackHot) {

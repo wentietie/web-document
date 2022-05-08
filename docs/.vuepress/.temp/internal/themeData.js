@@ -18,6 +18,15 @@ export const themeData = {
       ]
     },
     {
+      "text": "前端框架",
+      "children": [
+        {
+          "text": "vue2",
+          "link": "/formwork/vue/vueyuanli.md"
+        }
+      ]
+    },
+    {
       "text": "工具学习",
       "children": [
         {
@@ -55,6 +64,18 @@ export const themeData = {
         ]
       }
     ],
+    "/formwork/vue/": [
+      {
+        "text": "VUE2",
+        "children": [
+          "/formwork/vue/vueyuanli",
+          "/formwork/vue/smzqhs.md",
+          "/formwork/vue/vue-slsx.md",
+          "/formwork/vue/fzzj.md",
+          "/formwork/vue/ysbd.md"
+        ]
+      }
+    ],
     "/notes/": [
       {
         "text": "随笔",
@@ -62,7 +83,8 @@ export const themeData = {
           {
             "text": "XMLHttpRequest",
             "link": "/notes/xmlhttprequest.md"
-          }
+          },
+          "/notes/hwdj.md"
         ]
       }
     ],
