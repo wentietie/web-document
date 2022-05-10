@@ -1,10 +1,10 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /gongjushu/git.html
-  "v-605b0f1b": () => import(/* webpackChunkName: "v-605b0f1b" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/gongjushu/git.html.js").then(({ data }) => data),
   // path: /notes/hwdj.html
   "v-2355fe3d": () => import(/* webpackChunkName: "v-2355fe3d" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/hwdj.html.js").then(({ data }) => data),
+  // path: /notes/node.html
+  "v-555ef630": () => import(/* webpackChunkName: "v-555ef630" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/node.html.js").then(({ data }) => data),
   // path: /notes/xmlhttprequest.html
   "v-9b8495bc": () => import(/* webpackChunkName: "v-9b8495bc" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.js").then(({ data }) => data),
   // path: /formwork/vue/fzzj.html
@@ -17,6 +17,10 @@ export const pagesData = {
   "v-79ee5b57": () => import(/* webpackChunkName: "v-79ee5b57" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/formwork/vue/vueyuanli.html.js").then(({ data }) => data),
   // path: /formwork/vue/ysbd.html
   "v-7d250bb3": () => import(/* webpackChunkName: "v-7d250bb3" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/formwork/vue/ysbd.html.js").then(({ data }) => data),
+  // path: /gongjushu/git/git.html
+  "v-7ef002b8": () => import(/* webpackChunkName: "v-7ef002b8" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/gongjushu/git/git.html.js").then(({ data }) => data),
+  // path: /gongjushu/webpack/wp-1.html
+  "v-2218f774": () => import(/* webpackChunkName: "v-2218f774" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/gongjushu/webpack/wp-1.html.js").then(({ data }) => data),
   // path: /JavaScript/es6/es6-1.html
   "v-7ae3cb46": () => import(/* webpackChunkName: "v-7ae3cb46" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/JavaScript/es6/es6-1.html.js").then(({ data }) => data),
   // path: /JavaScript/es6/es6-2.html

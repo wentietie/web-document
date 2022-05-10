@@ -31,15 +31,19 @@ module.exports = {
                     },
                 ],
             },
-            {
-                text: '工具学习',
-                children: [
-                    {
-                        text: 'GIT',
-                        link: '/gongjushu/git.md'
-                    },
-                ],
-            },
+            // {
+            //     text: '工具学习',
+            //     children: [
+            //         {
+            //             text: 'GIT',
+            //             link: '/gongjushu/git/git.md'
+            //         },
+            //         {
+            //             text: 'WebPack',
+            //             link: '/gongjushu/webpack/wp-1.md'
+            //         },
+            //     ],
+            // },
             {
                 text: '随笔笔记',
                 link: '/notes/xmlhttprequest'
@@ -88,7 +92,8 @@ module.exports = {
                             text: 'XMLHttpRequest',
                             link: '/notes/xmlhttprequest.md',
                         },
-                        '/notes/hwdj.md'
+                        '/notes/hwdj.md',
+                        '/notes/node.md'
                     ],
                 },
             ],
@@ -98,7 +103,13 @@ module.exports = {
                     children: [
                         {
                             text: 'git',
-                            link: '/gongjushu/git.md',
+                            link: '/gongjushu/git/git.md',
+                        },
+                        {
+                            text: 'Webpack',
+                            children:[
+                                '/gongjushu/webpack/wp-1.md'
+                            ]
                         }
                     ],
                 },

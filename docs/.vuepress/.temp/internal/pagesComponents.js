@@ -3,10 +3,10 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /gongjushu/git.html
-  "v-605b0f1b": defineAsyncComponent(() => import(/* webpackChunkName: "v-605b0f1b" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/gongjushu/git.html.vue")),
   // path: /notes/hwdj.html
   "v-2355fe3d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2355fe3d" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/hwdj.html.vue")),
+  // path: /notes/node.html
+  "v-555ef630": defineAsyncComponent(() => import(/* webpackChunkName: "v-555ef630" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/node.html.vue")),
   // path: /notes/xmlhttprequest.html
   "v-9b8495bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-9b8495bc" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.vue")),
   // path: /formwork/vue/fzzj.html
@@ -19,6 +19,10 @@ export const pagesComponents = {
   "v-79ee5b57": defineAsyncComponent(() => import(/* webpackChunkName: "v-79ee5b57" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/formwork/vue/vueyuanli.html.vue")),
   // path: /formwork/vue/ysbd.html
   "v-7d250bb3": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d250bb3" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/formwork/vue/ysbd.html.vue")),
+  // path: /gongjushu/git/git.html
+  "v-7ef002b8": defineAsyncComponent(() => import(/* webpackChunkName: "v-7ef002b8" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/gongjushu/git/git.html.vue")),
+  // path: /gongjushu/webpack/wp-1.html
+  "v-2218f774": defineAsyncComponent(() => import(/* webpackChunkName: "v-2218f774" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/gongjushu/webpack/wp-1.html.vue")),
   // path: /JavaScript/es6/es6-1.html
   "v-7ae3cb46": defineAsyncComponent(() => import(/* webpackChunkName: "v-7ae3cb46" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/JavaScript/es6/es6-1.html.vue")),
   // path: /JavaScript/es6/es6-2.html

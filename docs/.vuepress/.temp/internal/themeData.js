@@ -27,15 +27,6 @@ export const themeData = {
       ]
     },
     {
-      "text": "工具学习",
-      "children": [
-        {
-          "text": "GIT",
-          "link": "/gongjushu/git.md"
-        }
-      ]
-    },
-    {
       "text": "随笔笔记",
       "link": "/notes/xmlhttprequest"
     }
@@ -84,7 +75,8 @@ export const themeData = {
             "text": "XMLHttpRequest",
             "link": "/notes/xmlhttprequest.md"
           },
-          "/notes/hwdj.md"
+          "/notes/hwdj.md",
+          "/notes/node.md"
         ]
       }
     ],
@@ -94,7 +86,13 @@ export const themeData = {
         "children": [
           {
             "text": "git",
-            "link": "/gongjushu/git.md"
+            "link": "/gongjushu/git/git.md"
+          },
+          {
+            "text": "Webpack",
+            "children": [
+              "/gongjushu/webpack/wp-1.md"
+            ]
           }
         ]
       }
@@ -127,17 +125,4 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

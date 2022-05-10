@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8394324f-0058-4b7e-adf1-759a1d079b4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/webpack/wp-1.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/webpack/wp-1.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/gongjushu/git/git.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/gongjushu/git/git.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/gongjushu/webpack/wp-1.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/gongjushu/webpack/wp-1.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/node.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/node.html.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gongjushu/webpack/wp-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/notes/node.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppEnhances.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppEnhances.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppRootComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppRootComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppSetups.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/clientAppSetups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/layoutComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/layoutComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/fzzj.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/fzzj.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/smzqhs.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/smzqhs.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vue-slsx.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vue-slsx.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vueyuanli.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/vueyuanli.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/ysbd.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/formwork/vue/ysbd.html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/hwdj.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/pages/notes/hwdj.html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/pagesRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/themeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/.temp/internal/themeData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/gongjushu/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/gongjushu/git/git.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28N6l5Wi8ikMcF0rCboySUOw1SO" />
   <component name="ProjectLevelVcsManager">
@@ -64,11 +70,13 @@
       <recent name="F:\项目\博客\web-document\docs\formwork\vue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\项目\博客\web-document\docs\gongjushu\git" />
+      <recent name="G:\项目\博客\web-document\docs\gongjushu" />
       <recent name="F:\项目\博客\web-document\docs" />
       <recent name="C:\Users\LYC\Desktop\web-document\docs\JavaScript\youdontknowjs" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:dev">
+  <component name="RunManager" selected="npm.docs:build">
     <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/docs/formwork/vue/test/test.js" working-dir="$PROJECT_DIR$/docs/formwork/vue/test">
       <method v="2" />
     </configuration>
@@ -114,8 +122,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="npm.docs:build" />
+        <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="Node.js.test.js" />
       </list>
@@ -143,6 +151,7 @@
       <workItem from="1651797536480" duration="13183000" />
       <workItem from="1651883707924" duration="675000" />
       <workItem from="1651983697610" duration="80000" />
+      <workItem from="1652012823182" duration="3372000" />
     </task>
     <servers />
   </component>
