@@ -46,7 +46,20 @@ module.exports = {
             // },
             {
                 text: '随笔笔记',
-                link: '/notes/xmlhttprequest'
+                children: [
+                    {
+                        text: 'JS相关',
+                        link: '/notes/JS/hwdj'
+                    },
+                    {
+                        text: 'CSS相关',
+                        link: '/notes/CSS/css-selector'
+                    },
+                    {
+                        text: '浏览器相关',
+                        link: '/notes/browser/xmlhttprequest'
+                    },
+                ]
             },
         ],
         sidebar: {
@@ -84,36 +97,46 @@ module.exports = {
                     ],
                 },
             ],
-            '/notes/': [
+            '/notes/JS': [
                 {
-                    text: '随笔',
+                    text: 'JS随笔',
                     children: [
-                        {
-                            text: 'XMLHttpRequest',
-                            link: '/notes/xmlhttprequest.md',
-                        },
-                        '/notes/hwdj.md',
-                        '/notes/node.md'
+                        '/notes/JS/hwdj.md',
+                        '/notes/JS/modules.md',
+                        '/notes/JS/pro-compile.md',
+                        '/notes/JS/node.md',
                     ],
                 },
             ],
-            '/gongjushu/': [
+            '/notes/CSS': [
                 {
-                    text: '工具学习',
+                    text: 'CSS随笔',
                     children: [
-                        {
-                            text: 'git',
-                            link: '/gongjushu/git/git.md',
-                        },
-                        {
-                            text: 'Webpack',
-                            children:[
-                                '/gongjushu/webpack/wp-1.md'
-                            ]
-                        }
+                        '/notes/CSS/css-selector.md',
                     ],
                 },
-            ]
+            ],
+            '/notes/browser': [
+                {
+                    text: '浏览器随笔',
+                    children: [
+                        '/notes/browser/xmlhttprequest.md',
+                        '/notes/browser/kuayu.md',
+                        '/notes/browser/route.md',
+                    ],
+                },
+            ],
+            // '/gongjushu/': [
+            //     {
+            //         text: '工具学习',
+            //         children: [
+            //             {
+            //                 text: 'git',
+            //                 link: '/gongjushu/git.md',
+            //             }
+            //         ],
+            //     },
+            // ]
         }
     }),
 }

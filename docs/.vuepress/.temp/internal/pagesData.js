@@ -1,12 +1,6 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /notes/hwdj.html
-  "v-2355fe3d": () => import(/* webpackChunkName: "v-2355fe3d" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/hwdj.html.js").then(({ data }) => data),
-  // path: /notes/node.html
-  "v-555ef630": () => import(/* webpackChunkName: "v-555ef630" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/node.html.js").then(({ data }) => data),
-  // path: /notes/xmlhttprequest.html
-  "v-9b8495bc": () => import(/* webpackChunkName: "v-9b8495bc" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.js").then(({ data }) => data),
   // path: /formwork/vue/fzzj.html
   "v-530baa8b": () => import(/* webpackChunkName: "v-530baa8b" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/formwork/vue/fzzj.html.js").then(({ data }) => data),
   // path: /formwork/vue/smzqhs.html
@@ -39,6 +33,24 @@ export const pagesData = {
   "v-62fff294": () => import(/* webpackChunkName: "v-62fff294" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/JavaScript/es6/es6-8.html.js").then(({ data }) => data),
   // path: /JavaScript/youdontknowjs/part1.html
   "v-1a9e51a2": () => import(/* webpackChunkName: "v-1a9e51a2" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/JavaScript/youdontknowjs/part1.html.js").then(({ data }) => data),
+  // path: /notes/browser/kuayu.html
+  "v-40a58318": () => import(/* webpackChunkName: "v-40a58318" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/browser/kuayu.html.js").then(({ data }) => data),
+  // path: /notes/browser/route.html
+  "v-0ddf8b7e": () => import(/* webpackChunkName: "v-0ddf8b7e" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/browser/route.html.js").then(({ data }) => data),
+  // path: /notes/browser/xmlhttprequest.html
+  "v-235ba28a": () => import(/* webpackChunkName: "v-235ba28a" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/browser/xmlhttprequest.html.js").then(({ data }) => data),
+  // path: /notes/CSS/css-selector.html
+  "v-90e9c506": () => import(/* webpackChunkName: "v-90e9c506" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/CSS/css-selector.html.js").then(({ data }) => data),
+  // path: /notes/JS/hwdj.html
+  "v-3879be25": () => import(/* webpackChunkName: "v-3879be25" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/hwdj.html.js").then(({ data }) => data),
+  // path: /notes/JS/modules.html
+  "v-fb798fde": () => import(/* webpackChunkName: "v-fb798fde" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/modules.html.js").then(({ data }) => data),
+  // path: /notes/JS/node.html
+  "v-6a82b618": () => import(/* webpackChunkName: "v-6a82b618" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/node.html.js").then(({ data }) => data),
+  // path: /notes/JS/pro-compile.html
+  "v-678f06f6": () => import(/* webpackChunkName: "v-678f06f6" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/pro-compile.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /CSS/flex.html
+  "v-18f86e0a": () => import(/* webpackChunkName: "v-18f86e0a" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/CSS/flex.html.js").then(({ data }) => data),
 }

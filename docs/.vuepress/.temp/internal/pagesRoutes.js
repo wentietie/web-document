@@ -2,9 +2,6 @@ import { Vuepress } from '@vuepress/client'
 
 const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
-  ["v-2355fe3d","/notes/hwdj.html",{"title":"宏任务、微任务、队列和计划"},["/notes/hwdj","/notes/hwdj.md"]],
-  ["v-555ef630","/notes/node.html",{"title":"node相关"},["/notes/node","/notes/node.md"]],
-  ["v-9b8495bc","/notes/xmlhttprequest.html",{"title":"XMLHttpRequest,fetch和axios"},["/notes/xmlhttprequest","/notes/xmlhttprequest.md"]],
   ["v-530baa8b","/formwork/vue/fzzj.html",{"title":"父子组件"},["/formwork/vue/fzzj","/formwork/vue/fzzj.md"]],
   ["v-6e30119a","/formwork/vue/smzqhs.html",{"title":"生命周期函数"},["/formwork/vue/smzqhs","/formwork/vue/smzqhs.md"]],
   ["v-023ff66c","/formwork/vue/vue-slsx.html",{"title":"vue实例属性"},["/formwork/vue/vue-slsx","/formwork/vue/vue-slsx.md"]],
@@ -21,7 +18,16 @@ const routeItems = [
   ["v-6669a3d2","/JavaScript/es6/es6-7.html",{"title":"函数的扩展"},["/JavaScript/es6/es6-7","/JavaScript/es6/es6-7.md"]],
   ["v-62fff294","/JavaScript/es6/es6-8.html",{"title":"数组的扩展"},["/JavaScript/es6/es6-8","/JavaScript/es6/es6-8.md"]],
   ["v-1a9e51a2","/JavaScript/youdontknowjs/part1.html",{"title":"第一部分 作用域和闭包"},["/JavaScript/youdontknowjs/part1","/JavaScript/youdontknowjs/part1.md"]],
+  ["v-40a58318","/notes/browser/kuayu.html",{"title":"跨域"},["/notes/browser/kuayu","/notes/browser/kuayu.md"]],
+  ["v-0ddf8b7e","/notes/browser/route.html",{"title":"路由"},["/notes/browser/route","/notes/browser/route.md"]],
+  ["v-235ba28a","/notes/browser/xmlhttprequest.html",{"title":"XMLHttpRequest,fetch和axios"},["/notes/browser/xmlhttprequest","/notes/browser/xmlhttprequest.md"]],
+  ["v-90e9c506","/notes/CSS/css-selector.html",{"title":"css 权重"},["/notes/CSS/css-selector","/notes/CSS/css-selector.md"]],
+  ["v-3879be25","/notes/JS/hwdj.html",{"title":"宏任务、微任务、队列和计划"},["/notes/JS/hwdj","/notes/JS/hwdj.md"]],
+  ["v-fb798fde","/notes/JS/modules.html",{"title":"Commonjs、CMD、ESM和AMD"},["/notes/JS/modules","/notes/JS/modules.md"]],
+  ["v-6a82b618","/notes/JS/node.html",{"title":"node相关"},["/notes/JS/node","/notes/JS/node.md"]],
+  ["v-678f06f6","/notes/JS/pro-compile.html",{"title":"JS 预编译"},["/notes/JS/pro-compile","/notes/JS/pro-compile.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
+  ["v-18f86e0a","/CSS/flex.html",{"title":"弹性盒子模型"},["/CSS/flex","/CSS/flex.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

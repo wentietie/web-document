@@ -3,12 +3,6 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /notes/hwdj.html
-  "v-2355fe3d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2355fe3d" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/hwdj.html.vue")),
-  // path: /notes/node.html
-  "v-555ef630": defineAsyncComponent(() => import(/* webpackChunkName: "v-555ef630" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/node.html.vue")),
-  // path: /notes/xmlhttprequest.html
-  "v-9b8495bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-9b8495bc" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/xmlhttprequest.html.vue")),
   // path: /formwork/vue/fzzj.html
   "v-530baa8b": defineAsyncComponent(() => import(/* webpackChunkName: "v-530baa8b" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/formwork/vue/fzzj.html.vue")),
   // path: /formwork/vue/smzqhs.html
@@ -41,6 +35,24 @@ export const pagesComponents = {
   "v-62fff294": defineAsyncComponent(() => import(/* webpackChunkName: "v-62fff294" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/JavaScript/es6/es6-8.html.vue")),
   // path: /JavaScript/youdontknowjs/part1.html
   "v-1a9e51a2": defineAsyncComponent(() => import(/* webpackChunkName: "v-1a9e51a2" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/JavaScript/youdontknowjs/part1.html.vue")),
+  // path: /notes/browser/kuayu.html
+  "v-40a58318": defineAsyncComponent(() => import(/* webpackChunkName: "v-40a58318" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/browser/kuayu.html.vue")),
+  // path: /notes/browser/route.html
+  "v-0ddf8b7e": defineAsyncComponent(() => import(/* webpackChunkName: "v-0ddf8b7e" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/browser/route.html.vue")),
+  // path: /notes/browser/xmlhttprequest.html
+  "v-235ba28a": defineAsyncComponent(() => import(/* webpackChunkName: "v-235ba28a" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/browser/xmlhttprequest.html.vue")),
+  // path: /notes/CSS/css-selector.html
+  "v-90e9c506": defineAsyncComponent(() => import(/* webpackChunkName: "v-90e9c506" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/CSS/css-selector.html.vue")),
+  // path: /notes/JS/hwdj.html
+  "v-3879be25": defineAsyncComponent(() => import(/* webpackChunkName: "v-3879be25" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/hwdj.html.vue")),
+  // path: /notes/JS/modules.html
+  "v-fb798fde": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb798fde" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/modules.html.vue")),
+  // path: /notes/JS/node.html
+  "v-6a82b618": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a82b618" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/node.html.vue")),
+  // path: /notes/JS/pro-compile.html
+  "v-678f06f6": defineAsyncComponent(() => import(/* webpackChunkName: "v-678f06f6" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/notes/JS/pro-compile.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/404.html.vue")),
+  // path: /CSS/flex.html
+  "v-18f86e0a": defineAsyncComponent(() => import(/* webpackChunkName: "v-18f86e0a" */"G:/项目/博客/web-document/docs/.vuepress/.temp/pages/CSS/flex.html.vue")),
 }

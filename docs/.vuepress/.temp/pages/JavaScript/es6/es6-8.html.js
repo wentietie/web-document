@@ -42,6 +42,18 @@ export const data = {
       "title": "find() 和 findIndex()",
       "slug": "find-和-findindex",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "fill()",
+      "slug": "fill",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "",
+      "slug": "",
+      "children": []
     }
   ],
   "git": {
@@ -55,4 +67,17 @@ export const data = {
     ]
   },
   "filePathRelative": "JavaScript/es6/es6-8.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

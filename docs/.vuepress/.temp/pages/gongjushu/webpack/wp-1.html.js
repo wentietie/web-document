@@ -14,8 +14,27 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652185512000,
+    "contributors": [
+      {
+        "name": "TianhuaTang",
+        "email": "995850284@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "gongjushu/webpack/wp-1.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
