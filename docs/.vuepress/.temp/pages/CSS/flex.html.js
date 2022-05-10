@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652186081000,
+    "contributors": [
+      {
+        "name": "TianhuaTang",
+        "email": "995850284@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "CSS/flex.md"
 }

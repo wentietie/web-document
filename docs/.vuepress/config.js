@@ -19,7 +19,10 @@ module.exports = {
                         text: '你不知道的Javascript',
                         link: '/JavaScript/youdontknowjs/part1.md'
                     },
-
+                    // {
+                    //     text: '谈',
+                    //     link: '/JavaScript/youdontknowjs/part1.md'
+                    // },
                 ],
             },
             {
@@ -113,6 +116,7 @@ module.exports = {
                     text: 'CSS随笔',
                     children: [
                         '/notes/CSS/css-selector.md',
+                        '/notes/CSS/flex.md',
                     ],
                 },
             ],

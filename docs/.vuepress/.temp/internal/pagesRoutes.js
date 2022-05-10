@@ -22,12 +22,12 @@ const routeItems = [
   ["v-0ddf8b7e","/notes/browser/route.html",{"title":"路由"},["/notes/browser/route","/notes/browser/route.md"]],
   ["v-235ba28a","/notes/browser/xmlhttprequest.html",{"title":"XMLHttpRequest,fetch和axios"},["/notes/browser/xmlhttprequest","/notes/browser/xmlhttprequest.md"]],
   ["v-90e9c506","/notes/CSS/css-selector.html",{"title":"css 权重"},["/notes/CSS/css-selector","/notes/CSS/css-selector.md"]],
+  ["v-93f2c626","/notes/CSS/flex.html",{"title":"弹性盒子模型"},["/notes/CSS/flex","/notes/CSS/flex.md"]],
   ["v-3879be25","/notes/JS/hwdj.html",{"title":"宏任务、微任务、队列和计划"},["/notes/JS/hwdj","/notes/JS/hwdj.md"]],
   ["v-fb798fde","/notes/JS/modules.html",{"title":"Commonjs、CMD、ESM和AMD"},["/notes/JS/modules","/notes/JS/modules.md"]],
   ["v-6a82b618","/notes/JS/node.html",{"title":"node相关"},["/notes/JS/node","/notes/JS/node.md"]],
   ["v-678f06f6","/notes/JS/pro-compile.html",{"title":"JS 预编译"},["/notes/JS/pro-compile","/notes/JS/pro-compile.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
-  ["v-18f86e0a","/CSS/flex.html",{"title":"弹性盒子模型"},["/CSS/flex","/CSS/flex.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(
