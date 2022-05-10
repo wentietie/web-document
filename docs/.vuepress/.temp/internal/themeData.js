@@ -37,7 +37,20 @@ export const themeData = {
     },
     {
       "text": "随笔笔记",
-      "link": "/notes/xmlhttprequest"
+      "children": [
+        {
+          "text": "JS相关",
+          "link": "/notes/JS/hwdj"
+        },
+        {
+          "text": "CSS相关",
+          "link": "/notes/CSS/css-selector"
+        },
+        {
+          "text": "浏览器相关",
+          "link": "/notes/browser/xmlhttprequest"
+        }
+      ]
     }
   ],
   "sidebar": {
@@ -76,26 +89,31 @@ export const themeData = {
         ]
       }
     ],
-    "/notes/": [
+    "/notes/JS": [
       {
-        "text": "随笔",
+        "text": "JS随笔",
         "children": [
-          {
-            "text": "XMLHttpRequest",
-            "link": "/notes/xmlhttprequest.md"
-          },
-          "/notes/hwdj.md"
+          "/notes/JS/hwdj.md",
+          "/notes/JS/modules.md",
+          "/notes/JS/pro-compile.md"
         ]
       }
     ],
-    "/gongjushu/": [
+    "/notes/CSS": [
       {
-        "text": "工具学习",
+        "text": "JS随笔",
         "children": [
-          {
-            "text": "git",
-            "link": "/gongjushu/git.md"
-          }
+          "/notes/CSS/css-selector.md"
+        ]
+      }
+    ],
+    "/notes/browser": [
+      {
+        "text": "浏览器随笔",
+        "children": [
+          "/notes/browser/xmlhttprequest.md",
+          "/notes/browser/kuayu.md",
+          "/notes/browser/route.md"
         ]
       }
     ]

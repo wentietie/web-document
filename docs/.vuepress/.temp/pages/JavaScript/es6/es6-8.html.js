@@ -42,6 +42,18 @@ export const data = {
       "title": "find() 和 findIndex()",
       "slug": "find-和-findindex",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "fill()",
+      "slug": "fill",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "",
+      "slug": "",
+      "children": []
     }
   ],
   "git": {
