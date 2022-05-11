@@ -57,12 +57,12 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1651743257000,
+    "updatedTime": 1652177294000,
     "contributors": [
       {
         "name": "文铁铁",
         "email": "1179131421@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
