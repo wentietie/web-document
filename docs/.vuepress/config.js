@@ -19,7 +19,10 @@ module.exports = {
                         text: '你不知道的Javascript',
                         link: '/JavaScript/youdontknowjs/part1.md'
                     },
-
+                    {
+                        text: '设计模式',
+                        link: '/JavaScript/design/'
+                    },
                 ],
             },
             {
@@ -28,15 +31,6 @@ module.exports = {
                     {
                         text: 'vue2',
                         link: '/formwork/vue/vueyuanli.md'
-                    },
-                ],
-            },
-            {
-                text: '工具学习',
-                children: [
-                    {
-                        text: 'GIT',
-                        link: '/gongjushu/git.md'
                     },
                 ],
             },
@@ -55,6 +49,10 @@ module.exports = {
                         text: '浏览器相关',
                         link: '/notes/browser/xmlhttprequest'
                     },
+                    {
+                        text: 'node相关',
+                        link: '/notes/node/node.md'
+                    },
                 ]
             },
         ],
@@ -71,6 +69,16 @@ module.exports = {
                         '/JavaScript/es6/es6-6.md',
                         '/JavaScript/es6/es6-7.md',
                         '/JavaScript/es6/es6-8.md',
+                        '/JavaScript/es6/es6-9.md',
+                        '/JavaScript/es6/es6-10.md',
+                        '/JavaScript/es6/es6-11.md',
+                        '/JavaScript/es6/es6-12.md',
+                        '/JavaScript/es6/es6-13.md',
+                        '/JavaScript/es6/es6-14.md',
+                        '/JavaScript/es6/es6-15.md',
+                        '/JavaScript/es6/es6-16.md',
+                        '/JavaScript/es6/es6-17.md',
+                        '/JavaScript/es6/es6-18.md',
                     ],
                 },
 
@@ -79,6 +87,12 @@ module.exports = {
                 {
                     text: '你不知道的JavaScript',
                     children: ['/JavaScript/youdontknowjs/part1.md'],
+                },
+            ],
+            '/JavaScript/design/': [
+                {
+                    text: '设计模式',
+                    children: ['/JavaScript/design/readme.md'],
                 },
             ],
             '/formwork/vue/': [
@@ -103,11 +117,21 @@ module.exports = {
                     ],
                 },
             ],
+            '/notes/node': [
+                {
+                    text: 'node随笔',
+                    children: [
+                        '/notes/node/node.md',
+                        '/notes/node/linuxinstallnode.md',
+                    ],
+                },
+            ],
             '/notes/CSS': [
                 {
-                    text: 'JS随笔',
+                    text: 'CSS随笔',
                     children: [
                         '/notes/CSS/css-selector.md',
+                        '/notes/CSS/flex.md',
                     ],
                 },
             ],
@@ -118,20 +142,24 @@ module.exports = {
                         '/notes/browser/xmlhttprequest.md',
                         '/notes/browser/kuayu.md',
                         '/notes/browser/route.md',
+                        '/notes/browser/layout.md',
                     ],
                 },
             ],
-            // '/gongjushu/': [
-            //     {
-            //         text: '工具学习',
-            //         children: [
-            //             {
-            //                 text: 'git',
-            //                 link: '/gongjushu/git.md',
-            //             }
-            //         ],
-            //     },
-            // ]
+
+            // {
+            //     text: '工具学习',
+            //     children: [
+            //         {
+            //             text: 'GIT',
+            //             link: '/gongjushu/git/git.md'
+            //         },
+            //         {
+            //             text: 'WebPack',
+            //             link: '/gongjushu/webpack/wp-1.md'
+            //         },
+            //     ],
+            // },
         }
     }),
 }
