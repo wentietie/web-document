@@ -35,6 +35,15 @@ module.exports = {
                 ],
             },
             {
+                text: '计算机基础',
+                children: [
+                    {
+                        text: '数据结构（严蔚敏）',
+                        link: '/end/c/data-contruction/part1.md'
+                    },
+                ],
+            },
+            {
                 text: '随笔笔记',
                 children: [
                     {
@@ -86,7 +95,10 @@ module.exports = {
             '/JavaScript/youdontknowjs/': [
                 {
                     text: '你不知道的JavaScript',
-                    children: ['/JavaScript/youdontknowjs/part1.md'],
+                    children: [
+                        '/JavaScript/youdontknowjs/part1.md',
+                        '/JavaScript/youdontknowjs/part2.md',
+                    ],
                 },
             ],
             '/JavaScript/design/': [
@@ -132,6 +144,7 @@ module.exports = {
                     children: [
                         '/notes/CSS/css-selector.md',
                         '/notes/CSS/flex.md',
+                        '/notes/CSS/CSSchangyong.md',
                     ],
                 },
             ],
@@ -146,20 +159,10 @@ module.exports = {
                     ],
                 },
             ],
+            '/end/c/data-contruction/': [
+                '/end/c/data-contruction/part1.md'
+            ]
 
-            // {
-            //     text: '工具学习',
-            //     children: [
-            //         {
-            //             text: 'GIT',
-            //             link: '/gongjushu/git/git.md'
-            //         },
-            //         {
-            //             text: 'WebPack',
-            //             link: '/gongjushu/webpack/wp-1.md'
-            //         },
-            //     ],
-            // },
         }
     }),
 }

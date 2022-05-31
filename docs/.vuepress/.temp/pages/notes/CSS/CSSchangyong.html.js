@@ -1,42 +1,42 @@
 export const data = {
-  "key": "v-c5e20ac6",
-  "path": "/JavaScript/es6/es6-18.html",
-  "title": "Module 的加载实现",
+  "key": "v-07992976",
+  "path": "/notes/CSS/CSSchangyong.html",
+  "title": "一些常用CSS",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "浏览器加载",
-      "slug": "浏览器加载",
+      "title": "媒体查询",
+      "slug": "媒体查询",
       "children": [
         {
           "level": 3,
-          "title": "传统方法",
-          "slug": "传统方法",
+          "title": "媒体类型",
+          "slug": "媒体类型",
           "children": []
         },
         {
           "level": 3,
-          "title": "加载规则",
-          "slug": "加载规则",
+          "title": "媒体特性",
+          "slug": "媒体特性",
           "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "文字渐变色",
+      "slug": "文字渐变色",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1653470573000,
-    "contributors": [
-      {
-        "name": "文铁铁",
-        "email": "1179131421@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "JavaScript/es6/es6-18.md"
+  "filePathRelative": "notes/CSS/CSSchangyong.md"
 }
 
 if (import.meta.webpackHot) {

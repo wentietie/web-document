@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1653470573000,
+    "contributors": [
+      {
+        "name": "文铁铁",
+        "email": "1179131421@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "notes/browser/layout.md"
 }

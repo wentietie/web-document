@@ -31,6 +31,15 @@ export const themeData = {
       ]
     },
     {
+      "text": "计算机基础",
+      "children": [
+        {
+          "text": "数据结构（严蔚敏）",
+          "link": "/end/c/data-contruction/part1.md"
+        }
+      ]
+    },
+    {
       "text": "随笔笔记",
       "children": [
         {
@@ -82,7 +91,8 @@ export const themeData = {
       {
         "text": "你不知道的JavaScript",
         "children": [
-          "/JavaScript/youdontknowjs/part1.md"
+          "/JavaScript/youdontknowjs/part1.md",
+          "/JavaScript/youdontknowjs/part2.md"
         ]
       }
     ],
@@ -130,7 +140,8 @@ export const themeData = {
         "text": "CSS随笔",
         "children": [
           "/notes/CSS/css-selector.md",
-          "/notes/CSS/flex.md"
+          "/notes/CSS/flex.md",
+          "/notes/CSS/CSSchangyong.md"
         ]
       }
     ],
@@ -144,6 +155,9 @@ export const themeData = {
           "/notes/browser/layout.md"
         ]
       }
+    ],
+    "/end/c/data-contruction/": [
+      "/end/c/data-contruction/part1.md"
     ]
   },
   "locales": {

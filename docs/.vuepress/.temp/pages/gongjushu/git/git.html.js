@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652185512000,
+    "contributors": [
+      {
+        "name": "TianhuaTang",
+        "email": "995850284@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "gongjushu/git/git.md"
 }

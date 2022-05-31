@@ -32,8 +32,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1653470573000,
+    "contributors": [
+      {
+        "name": "文铁铁",
+        "email": "1179131421@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "JavaScript/es6/es6-17.md"
 }

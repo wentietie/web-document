@@ -32,8 +32,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652188183000,
+    "contributors": [
+      {
+        "name": "TianhuaTang",
+        "email": "995850284@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "notes/CSS/flex.md"
 }
