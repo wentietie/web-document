@@ -63,7 +63,8 @@ export default {
 export default {
   name: "test",
     components: {
-        compName
+        compName, // 直接注册
+        compName: () => import('./component.vue') // 异步注册
     },
 }
 </script>

@@ -8,8 +8,8 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "关于this",
-      "slug": "关于this",
+      "title": "1 关于this",
+      "slug": "_1-关于this",
       "children": [
         {
           "level": 3,
@@ -33,8 +33,8 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "this 全面解析",
-      "slug": "this-全面解析",
+      "title": "2 this 全面解析",
+      "slug": "_2-this-全面解析",
       "children": [
         {
           "level": 3,
@@ -50,16 +50,28 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "2.2.3 显式绑定",
-          "slug": "_2-2-3-显式绑定",
+          "title": "2.3 优先级",
+          "slug": "_2-3-优先级",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "2.4 绑定例外",
+          "slug": "_2-4-绑定例外",
           "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1653990078000,
+    "contributors": [
+      {
+        "name": "文铁铁",
+        "email": "1179131421@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "JavaScript/youdontknowjs/part2.md"
 }

@@ -57,10 +57,8 @@
 <h3 id="_1-4-3-算法效率的度量" tabindex="-1"><a class="header-anchor" href="#_1-4-3-算法效率的度量" aria-hidden="true">#</a> 1.4.3 算法效率的度量</h3>
 <p>算法执行时间的度量通常有以下两种：</p>
 <ul>
-<li>事后统计法：直接执行程序来进行统计。
-缺陷：1. 必须先运行。2. 计算结果依赖计算机硬件等环境因素。</li>
-<li>事前分析估计：
-一个高级程序语言编写的程序运行的时间取决于一下几种因素：
+<li>事后统计法：直接执行程序来进行统计。 缺陷：1. 必须先运行。2. 计算结果依赖计算机硬件等环境因素。</li>
+<li>事前分析估计： 一个高级程序语言编写的程序运行的时间取决于一下几种因素：
 <ul>
 <li>算法的策略</li>
 <li>问题的规模</li>
@@ -70,4 +68,27 @@
 </ul>
 </li>
 </ul>
+<div class="custom-container tip"><p class="custom-container-title">显然，同一个算法在不同环境下的运行时间不会相同，使用绝对的时间单位来衡量算法的效率是不合适的</p>
+</div>
+<p>抛开这些外界因素，可以认定一个算法的效率只依赖于问题的规模。一个算法是由控制结构（<strong>顺序、分支和循环</strong>）和原操作（固有数据类型的操作）构成的，则算法的时间取决于两者的综合。
+为了便于比较同一问题的不同算法，通常是从算法中选取一种对于研究问题来说是基本操作的原操作，以该操作的重复执行次数作为<strong>时间度量</strong>。</p>
+<p>例如：</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>j<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        c<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            c<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">+=</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>k<span class="token punctuation">]</span> <span class="token operator">*</span> b<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>上述算法是实现了一个N*N的矩阵相乘算法，乘法是矩阵的基本操作，整个算法的执行时间与操作的重复执行次数 <strong>n<sup>3</sup></strong> 成正比。
+记作:
+<em><strong><p style="text-align: center">T(n) = O(n<sup>3</sup>)</p></strong></em>
+一般情况下，基本操作的执行次数是问题规模n的某个函数f(n)，算法的时间度量记作
+<em><strong><p style="text-align: center">T(n) = O(f(n))</p></strong></em>
+他表示随着问题规模的增大，算法的执行时间的增长率和f(n)增长率相同，称作算法的<strong>渐进时间复杂度</strong>，简称<strong>时间复杂度</strong>。</p>
+<p>一般情况下，对一个问题或一类算法只需要选择一种基本操作来讨论算法的时间复杂度即可，但也有例外。</p>
+<h3 id="_1-4-4-算法的存储空间需求" tabindex="-1"><a class="header-anchor" href="#_1-4-4-算法的存储空间需求" aria-hidden="true">#</a> 1.4.4 算法的存储空间需求</h3>
+<p>类似于时间复杂度，算法运行过程中临时占用空间大小的度量称为<strong>空间复杂度</strong>。记作：
+<em><strong><p style="text-align: center">S(n) = O(f(n))</p></strong></em></p>
 </template>

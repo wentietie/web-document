@@ -8,6 +8,10 @@ export const themeData = {
       "text": "前端基础",
       "children": [
         {
+          "text": "JS高级程序设计",
+          "link": "/JavaScript/es6/es6-1.md"
+        },
+        {
           "text": "ES6入门",
           "link": "/JavaScript/es6/es6-1.md"
         },
@@ -122,7 +126,8 @@ export const themeData = {
         "children": [
           "/notes/JS/hwdj.md",
           "/notes/JS/modules.md",
-          "/notes/JS/pro-compile.md"
+          "/notes/JS/pro-compile.md",
+          "/notes/JS/buding.md"
         ]
       }
     ],
@@ -157,7 +162,14 @@ export const themeData = {
       }
     ],
     "/end/c/data-contruction/": [
-      "/end/c/data-contruction/part1.md"
+      "/end/c/data-contruction/part1.md",
+      "/end/c/data-contruction/part2.md"
+    ],
+    "/end/c/c-study/": [
+      "/end/c/c-study/part1.md",
+      "/end/c/c-study/part2.md",
+      "/end/c/c-study/part3.md",
+      "/end/c/c-study/part4.md"
     ]
   },
   "locales": {

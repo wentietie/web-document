@@ -1,8 +1,8 @@
 <template><h1 id="第一部分-作用域和闭包" tabindex="-1"><a class="header-anchor" href="#第一部分-作用域和闭包" aria-hidden="true">#</a> 第一部分 作用域和闭包</h1>
-<h2 id="编译原理" tabindex="-1"><a class="header-anchor" href="#编译原理" aria-hidden="true">#</a> 编译原理</h2>
+<h2 id="_1-1-编译原理" tabindex="-1"><a class="header-anchor" href="#_1-1-编译原理" aria-hidden="true">#</a> 1.1 编译原理</h2>
 <div class="custom-container tip"><p class="custom-container-title">尽管通常将 JavaScript 归类为“动态”或“解释执行”语言，但事实上它是一门编译语言。 但与传统的编译语言不同，它不是提前编译的，编译结果也不能在分布式系统中进行移植。</p>
 </div>
-<h3 id="传统编译语言编译过程" tabindex="-1"><a class="header-anchor" href="#传统编译语言编译过程" aria-hidden="true">#</a> 传统编译语言编译过程</h3>
+<h3 id="_1-1-1-传统编译语言编译过程" tabindex="-1"><a class="header-anchor" href="#_1-1-1-传统编译语言编译过程" aria-hidden="true">#</a> 1.1.1 传统编译语言编译过程</h3>
 <p>以JS语言举例</p>
 <ol>
 <li>分词/词法分析 这个过程会将书写的编程字符串分解成有意义的代码块，这些代码块被称为词法单元（token）。 例如：var a = 2;。这段程序通常被分解为var、a、=、2、;。空格是否被当作词法单元取决于空格在语言中是否有意义。<div class="custom-container tip"><p class="custom-container-title">关于分词和词法分析的区别</p>
@@ -19,9 +19,9 @@
 抽象语法树类似一个对象，这个对象中存储了对分词的的描述。</li>
 <li>代码生成 将 AST 转换为可执行代码的过程被称为代码生成。</li>
 </ol>
-<h3 id="js编译" tabindex="-1"><a class="header-anchor" href="#js编译" aria-hidden="true">#</a> JS编译</h3>
+<h3 id="_1-1-2-js编译" tabindex="-1"><a class="header-anchor" href="#_1-1-2-js编译" aria-hidden="true">#</a> 1.1.2 JS编译</h3>
 <p>简单地说，任何 JavaScript 代码片段在执行前都要进行编译（通常就在执行前）。因此， JavaScript 编译器首先会对 var a = 2; 这段程序进行编译，然后做好执行它的准备，并且 通常马上就会执行它。</p>
-<h3 id="理解作用域" tabindex="-1"><a class="header-anchor" href="#理解作用域" aria-hidden="true">#</a> 理解作用域</h3>
+<h3 id="_1-1-3理解作用域" tabindex="-1"><a class="header-anchor" href="#_1-1-3理解作用域" aria-hidden="true">#</a> 1.1.3理解作用域</h3>
 <h4 id="概念" tabindex="-1"><a class="header-anchor" href="#概念" aria-hidden="true">#</a> 概念</h4>
 <ol>
 <li>引擎 从头到尾负责整个JS程序的编译及执行过程</li>
@@ -72,8 +72,8 @@
 :::</p>
 <h4 id="作用域嵌套" tabindex="-1"><a class="header-anchor" href="#作用域嵌套" aria-hidden="true">#</a> 作用域嵌套</h4>
 <p>这一部分很好理解。就是当一个作用域中包含子作用域，那LHS和RHS在进行查询的时候，如果在当前作用域中没有查询到结果，会在外层嵌套作用域中继续查找。</p>
-<h2 id="词法作用域" tabindex="-1"><a class="header-anchor" href="#词法作用域" aria-hidden="true">#</a> 词法作用域</h2>
-<h3 id="词法阶段" tabindex="-1"><a class="header-anchor" href="#词法阶段" aria-hidden="true">#</a> 词法阶段</h3>
+<h2 id="_1-2-词法作用域" tabindex="-1"><a class="header-anchor" href="#_1-2-词法作用域" aria-hidden="true">#</a> 1.2 词法作用域</h2>
+<h3 id="_1-2-1-词法阶段" tabindex="-1"><a class="header-anchor" href="#_1-2-1-词法阶段" aria-hidden="true">#</a> 1.2.1 词法阶段</h3>
 <p>词法作用域就是定义在词法阶段的作用域</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">a</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">var</span> b <span class="token operator">=</span> a <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">;</span>
@@ -101,18 +101,18 @@
 </div>
 <p>::: 注 全局变量会自动成为全局对象（比如浏览器中的 window 对象）的属性。可以通过形如window.a的方式去查找变量，绕开遮蔽效应
 :::</p>
-<h3 id="欺骗词法" tabindex="-1"><a class="header-anchor" href="#欺骗词法" aria-hidden="true">#</a> 欺骗词法</h3>
+<h3 id="_1-2-2-欺骗词法" tabindex="-1"><a class="header-anchor" href="#_1-2-2-欺骗词法" aria-hidden="true">#</a> 1.2.2 欺骗词法</h3>
 <p>eval方法和with方法。 eval会对js的性能产生影响，不建议使用。 另外一个不推荐使用 eval和with 的原因是会被严格模式所影响（限制）。with 被完全禁止，而在保留核心功能的前提下，间接或非安全地使用 eval也被禁止了。</p>
-<h2 id="函数作用域和块作用域" tabindex="-1"><a class="header-anchor" href="#函数作用域和块作用域" aria-hidden="true">#</a> 函数作用域和块作用域</h2>
+<h2 id="_1-3-函数作用域和块作用域" tabindex="-1"><a class="header-anchor" href="#_1-3-函数作用域和块作用域" aria-hidden="true">#</a> 1.3 函数作用域和块作用域</h2>
 <div class="custom-container tip"><p class="custom-container-title">这一部分感觉比较浅显，所以写的比较少</p>
 </div>
-<h3 id="函数中的作用域" tabindex="-1"><a class="header-anchor" href="#函数中的作用域" aria-hidden="true">#</a> 函数中的作用域</h3>
+<h3 id="_1-3-1-函数中的作用域" tabindex="-1"><a class="header-anchor" href="#_1-3-1-函数中的作用域" aria-hidden="true">#</a> 1.3.1 函数中的作用域</h3>
 <p>函数作用域的含义是指，属于这个函数的全部变量都可以在整个函数的范围内使用及复用（事实上在嵌套的作用域中也可以使用）</p>
 <h4 id="隐藏内部实现" tabindex="-1"><a class="header-anchor" href="#隐藏内部实现" aria-hidden="true">#</a> 隐藏内部实现</h4>
 <p>方法内部内容私有化，可以有效地规避重名带来的冲突</p>
 <h4 id="函数作用域" tabindex="-1"><a class="header-anchor" href="#函数作用域" aria-hidden="true">#</a> 函数作用域</h4>
 <p>声明函数名本身就会对所在作用域进行污染，所以在某些时候可以用立即执行函数来包裹方法。</p>
-<h3 id="块级作用域" tabindex="-1"><a class="header-anchor" href="#块级作用域" aria-hidden="true">#</a> 块级作用域</h3>
+<p>#1.3.2 块级作用域</p>
 <p>with关键字省略。</p>
 <h4 id="try-catch" tabindex="-1"><a class="header-anchor" href="#try-catch" aria-hidden="true">#</a> try/catch</h4>
 <p>catch会创建一个块级作用域，其中声明的变量只能在catch内部使用。当试图从别处引用时会抛出错误。</p>
@@ -162,8 +162,8 @@ console<span class="token punctuation">.</span><span class="token function">log<
  * for 循环头部的 let 不仅将 i 绑定到了 for 循环的块中，
  * 事实上它将其重新绑定到了循环的每一个迭代中，确保使用上一个循环迭代结束时的值重新进行赋值。
  */</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="提升" tabindex="-1"><a class="header-anchor" href="#提升" aria-hidden="true">#</a> 提升</h2>
-<h3 id="先有鸡还是先有蛋" tabindex="-1"><a class="header-anchor" href="#先有鸡还是先有蛋" aria-hidden="true">#</a> 先有鸡还是先有蛋</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="_1-4-提升" tabindex="-1"><a class="header-anchor" href="#_1-4-提升" aria-hidden="true">#</a> 1.4 提升</h2>
+<h3 id="_1-4-1-先有鸡还是先有蛋" tabindex="-1"><a class="header-anchor" href="#_1-4-1-先有鸡还是先有蛋" aria-hidden="true">#</a> 1.4.1 先有鸡还是先有蛋</h3>
 <p>直觉上会认为 JavaScript 代码在执行时是由上到下一行一行执行的。但实际上这并不完全正确，有一种特殊情况会导致这个假设是错误的。</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>a <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
 <span class="token keyword">var</span> a<span class="token punctuation">;</span>
@@ -184,7 +184,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
  * 还有人可能会认为，由于变量 a 在使用前没有先进行声明，因此会抛出 ReferenceError 异常。
  * 不幸的是两种猜测都是不对的。输出来的会是 undefined。
  */</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h3 id="变量提升" tabindex="-1"><a class="header-anchor" href="#变量提升" aria-hidden="true">#</a> 变量提升</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h3 id="_1-4-2-变量提升" tabindex="-1"><a class="header-anchor" href="#_1-4-2-变量提升" aria-hidden="true">#</a> 1.4.2 变量提升</h3>
 <p>包括变量和函数在内的所有声明都会在任何代码被执行前首先被处理。</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token doc-comment comment">/**
  * 当你看到 var a = 2; 时，可能会认为这是一个声明。
@@ -242,7 +242,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <li>undefined是定义了没有赋值</li>
 </ul>
 </div>
-<h3 id="函数优先" tabindex="-1"><a class="header-anchor" href="#函数优先" aria-hidden="true">#</a> 函数优先</h3>
+<h3 id="_1-4-3-函数优先" tabindex="-1"><a class="header-anchor" href="#_1-4-3-函数优先" aria-hidden="true">#</a> 1.4.3 函数优先</h3>
 <p>函数声明和变量声明都会被提升。但是一个值得注意的细节是函数会首先被提升，然后才是变量。</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token function">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1 </span>
 <span class="token keyword">var</span> foo<span class="token punctuation">;</span>
@@ -265,7 +265,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token comment">//var foo 尽管出现在 function foo()... 的声明之前，但它是重复的声明，因此被忽略了</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h2 id="作用域闭包" tabindex="-1"><a class="header-anchor" href="#作用域闭包" aria-hidden="true">#</a> 作用域闭包</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h2 id="_1-5-作用域闭包" tabindex="-1"><a class="header-anchor" href="#_1-5-作用域闭包" aria-hidden="true">#</a> 1.5 作用域闭包</h2>
 <p>当函数可以记住并访问所在的词法作用域时，就产生了闭包，即使函数是在当前词法作用域之外执行。</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
@@ -281,5 +281,5 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token function">baz</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 2</span>
 <span class="token comment">// 这就是闭包的效果</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>无论使用何种方式对函数类型的值进行传递，当函数在别处被调用时都可以观察到闭包。也就是说我们常用的callback也是闭包</p>
-<h3 id="模块" tabindex="-1"><a class="header-anchor" href="#模块" aria-hidden="true">#</a> 模块</h3>
+<h3 id="_1-5-1-模块" tabindex="-1"><a class="header-anchor" href="#_1-5-1-模块" aria-hidden="true">#</a> 1.5.1 模块</h3>
 </template>

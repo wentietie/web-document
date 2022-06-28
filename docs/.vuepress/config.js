@@ -12,6 +12,10 @@ module.exports = {
                 text: '前端基础',
                 children: [
                     {
+                        text: 'JS高级程序设计',
+                        link: '/JavaScript/es6/es6-1.md'
+                    },
+                    {
                         text: 'ES6入门',
                         link: '/JavaScript/es6/es6-1.md'
                     },
@@ -37,6 +41,10 @@ module.exports = {
             {
                 text: '计算机基础',
                 children: [
+                    // {
+                    //     text: 'C语言入门',
+                    //     link: '/end/c/c-study/part1.md'
+                    // },
                     {
                         text: '数据结构（严蔚敏）',
                         link: '/end/c/data-contruction/part1.md'
@@ -126,6 +134,7 @@ module.exports = {
                         '/notes/JS/hwdj.md',
                         '/notes/JS/modules.md',
                         '/notes/JS/pro-compile.md',
+                        '/notes/JS/buding.md',
                     ],
                 },
             ],
@@ -160,9 +169,15 @@ module.exports = {
                 },
             ],
             '/end/c/data-contruction/': [
-                '/end/c/data-contruction/part1.md'
+                '/end/c/data-contruction/part1.md',
+                '/end/c/data-contruction/part2.md'
+            ],
+            '/end/c/c-study/': [
+                '/end/c/c-study/part1.md',
+                '/end/c/c-study/part2.md',
+                '/end/c/c-study/part3.md',
+                '/end/c/c-study/part4.md',
             ]
-
         }
     }),
 }

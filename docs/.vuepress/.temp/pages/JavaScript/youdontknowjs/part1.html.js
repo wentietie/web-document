@@ -8,101 +8,95 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "编译原理",
-      "slug": "编译原理",
+      "title": "1.1 编译原理",
+      "slug": "_1-1-编译原理",
       "children": [
         {
           "level": 3,
-          "title": "传统编译语言编译过程",
-          "slug": "传统编译语言编译过程",
+          "title": "1.1.1 传统编译语言编译过程",
+          "slug": "_1-1-1-传统编译语言编译过程",
           "children": []
         },
         {
           "level": 3,
-          "title": "JS编译",
-          "slug": "js编译",
+          "title": "1.1.2 JS编译",
+          "slug": "_1-1-2-js编译",
           "children": []
         },
         {
           "level": 3,
-          "title": "理解作用域",
-          "slug": "理解作用域",
+          "title": "1.1.3理解作用域",
+          "slug": "_1-1-3理解作用域",
           "children": []
         }
       ]
     },
     {
       "level": 2,
-      "title": "词法作用域",
-      "slug": "词法作用域",
+      "title": "1.2 词法作用域",
+      "slug": "_1-2-词法作用域",
       "children": [
         {
           "level": 3,
-          "title": "词法阶段",
-          "slug": "词法阶段",
+          "title": "1.2.1 词法阶段",
+          "slug": "_1-2-1-词法阶段",
           "children": []
         },
         {
           "level": 3,
-          "title": "欺骗词法",
-          "slug": "欺骗词法",
+          "title": "1.2.2 欺骗词法",
+          "slug": "_1-2-2-欺骗词法",
           "children": []
         }
       ]
     },
     {
       "level": 2,
-      "title": "函数作用域和块作用域",
-      "slug": "函数作用域和块作用域",
+      "title": "1.3 函数作用域和块作用域",
+      "slug": "_1-3-函数作用域和块作用域",
       "children": [
         {
           "level": 3,
-          "title": "函数中的作用域",
-          "slug": "函数中的作用域",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "块级作用域",
-          "slug": "块级作用域",
+          "title": "1.3.1 函数中的作用域",
+          "slug": "_1-3-1-函数中的作用域",
           "children": []
         }
       ]
     },
     {
       "level": 2,
-      "title": "提升",
-      "slug": "提升",
+      "title": "1.4 提升",
+      "slug": "_1-4-提升",
       "children": [
         {
           "level": 3,
-          "title": "先有鸡还是先有蛋",
-          "slug": "先有鸡还是先有蛋",
+          "title": "1.4.1 先有鸡还是先有蛋",
+          "slug": "_1-4-1-先有鸡还是先有蛋",
           "children": []
         },
         {
           "level": 3,
-          "title": "变量提升",
-          "slug": "变量提升",
+          "title": "1.4.2 变量提升",
+          "slug": "_1-4-2-变量提升",
           "children": []
         },
         {
           "level": 3,
-          "title": "函数优先",
-          "slug": "函数优先",
+          "title": "1.4.3 函数优先",
+          "slug": "_1-4-3-函数优先",
           "children": []
         }
       ]
     },
     {
       "level": 2,
-      "title": "作用域闭包",
-      "slug": "作用域闭包",
+      "title": "1.5 作用域闭包",
+      "slug": "_1-5-作用域闭包",
       "children": [
         {
           "level": 3,
-          "title": "模块",
-          "slug": "模块",
+          "title": "1.5.1 模块",
+          "slug": "_1-5-1-模块",
           "children": []
         }
       ]

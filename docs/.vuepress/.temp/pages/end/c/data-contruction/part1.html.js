@@ -46,13 +46,25 @@ export const data = {
           "title": "1.4.3 算法效率的度量",
           "slug": "_1-4-3-算法效率的度量",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "1.4.4 算法的存储空间需求",
+          "slug": "_1-4-4-算法的存储空间需求",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1653990078000,
+    "contributors": [
+      {
+        "name": "文铁铁",
+        "email": "1179131421@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "end/c/data-contruction/part1.md"
 }
