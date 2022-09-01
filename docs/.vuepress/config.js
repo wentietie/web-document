@@ -11,10 +11,10 @@ module.exports = {
             {
                 text: '前端基础',
                 children: [
-                    {
-                        text: 'JS高级程序设计',
-                        link: '/JavaScript/es6/es6-1.md'
-                    },
+                    // {
+                    //     text: 'JS高级程序设计',
+                    //     link: '/JavaScript/es6/es6-1.md'
+                    // },
                     {
                         text: 'ES6入门',
                         link: '/JavaScript/es6/es6-1.md'
@@ -23,10 +23,10 @@ module.exports = {
                         text: '你不知道的Javascript',
                         link: '/JavaScript/youdontknowjs/part1.md'
                     },
-                    {
-                        text: '设计模式',
-                        link: '/JavaScript/design/'
-                    },
+                    // {
+                    //     text: '设计模式',
+                    //     link: '/JavaScript/design/'
+                    // },
                 ],
             },
             {
@@ -165,6 +165,8 @@ module.exports = {
                         '/notes/browser/kuayu.md',
                         '/notes/browser/route.md',
                         '/notes/browser/layout.md',
+                        '/notes/browser/storage.md',
+                        '/notes/browser/refresh.md',
                     ],
                 },
             ],

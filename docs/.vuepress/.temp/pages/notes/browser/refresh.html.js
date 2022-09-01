@@ -1,27 +1,21 @@
 export const data = {
   "key": "v-08969aac",
   "path": "/notes/browser/refresh.html",
-  "title": "",
+  "title": "浏览器刷新过程",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 3,
+      "title": "相关浏览器事件",
+      "slug": "相关浏览器事件",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": null,
     "contributors": []
   },
   "filePathRelative": "notes/browser/refresh.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

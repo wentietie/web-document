@@ -8,20 +8,12 @@ export const themeData = {
       "text": "前端基础",
       "children": [
         {
-          "text": "JS高级程序设计",
-          "link": "/JavaScript/es6/es6-1.md"
-        },
-        {
           "text": "ES6入门",
           "link": "/JavaScript/es6/es6-1.md"
         },
         {
           "text": "你不知道的Javascript",
           "link": "/JavaScript/youdontknowjs/part1.md"
-        },
-        {
-          "text": "设计模式",
-          "link": "/JavaScript/design/"
         }
       ]
     },
@@ -157,7 +149,9 @@ export const themeData = {
           "/notes/browser/xmlhttprequest.md",
           "/notes/browser/kuayu.md",
           "/notes/browser/route.md",
-          "/notes/browser/layout.md"
+          "/notes/browser/layout.md",
+          "/notes/browser/storage.md",
+          "/notes/browser/refresh.md"
         ]
       }
     ],
@@ -199,17 +193,4 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }
