@@ -14,8 +14,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1662019850000,
+    "contributors": [
+      {
+        "name": "wentietie",
+        "email": "wenatie@outlook.com",
+        "commits": 2
+      }
+    ]
   },
   "filePathRelative": "notes/browser/refresh.md"
 }

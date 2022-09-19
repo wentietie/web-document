@@ -5,7 +5,32 @@ export const data = {
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 3,
+      "title": "浏览器渲染机制",
+      "slug": "浏览器渲染机制",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "重绘",
+      "slug": "重绘",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "回流",
+      "slug": "回流",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "优化",
+      "slug": "优化",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": 1653470573000,
     "contributors": [

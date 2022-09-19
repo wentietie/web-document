@@ -7,7 +7,52 @@ module.exports = {
     description: '我的个人博客',
     theme: defaultTheme({
         navbar: [
-            {text: '首页', link: '/' },
+            {text: '首页', link: '/'},
+            {
+                text: '小唐学习笔记',
+                children: [
+                    {
+                        text: 'docker',
+                        link: '/tang/docker/readme.md'
+                    },
+                    {
+                        text: 'gitlab',
+                        link: '/tang/gitlab/gitlab-error.md'
+                    },
+                    {
+                        text: 'java基础',
+                        link: '/tang/java/part1.md'
+                    },
+                    {
+                        text: 'k8s',
+                        link: '/tang/k8s/学习资料/command.md'
+                    },
+                    {
+                        text: 'mysql',
+                        link: '/tang/mysql/1.md'
+                    },
+                    {
+                        text: 'Prometheus',
+                        link: '/tang/Prometheus/1.md'
+                    },
+                    {
+                        text: 'Python',
+                        link: '/tang/Python/1.md'
+                    },
+                    {
+                        text: 'Vue',
+                        link: '/tang/Vue/1.md'
+                    },
+                    {
+                        text: '服务器',
+                        link: '/tang/server/part1.md'
+                    },
+                    {
+                        text: '微服务',
+                        link: '/tang/mservice/2.md'
+                    }
+                ]
+            },
             {
                 text: '前端基础',
                 children: [
@@ -23,10 +68,10 @@ module.exports = {
                         text: '你不知道的Javascript',
                         link: '/JavaScript/youdontknowjs/part1.md'
                     },
-                    // {
-                    //     text: '设计模式',
-                    //     link: '/JavaScript/design/'
-                    // },
+                    {
+                        text: '设计模式',
+                        link: '/JavaScript/design/'
+                    },
                 ],
             },
             {
@@ -74,6 +119,112 @@ module.exports = {
             },
         ],
         sidebar: {
+            '/tang/docker/': [
+                {
+                    text: 'docker',
+                    children: [
+                        '/tang/docker/readme.md',
+                        '/tang/docker/Docker.md'
+                    ]
+                }
+            ],
+            '/tang/java/': [
+                {
+                    text: 'java基础',
+                    children: [
+                        '/tang/java/part1.md',
+                        '/tang/java/2.md',
+                        '/tang/java/4.md',
+                        '/tang/java/3.md',
+                    ]
+                }
+            ],
+            '/tang/mysql/': [
+                {
+                    text: 'mysql',
+                    children: [
+                        '/tang/mysql/1.md',
+                    ]
+                }
+            ],
+            '/tang/Prometheus/': [
+                {
+                    text: 'Prometheus',
+                    children: [
+                        '/tang/Prometheus/1.md',
+                        '/tang/Prometheus/2.md',
+                    ]
+                }
+            ],
+            '/tang/Python/': [
+                {
+                    text: 'Python',
+                    children: [
+                        '/tang/Python/1.md',
+                        '/tang/Python/command.md'
+                    ]
+                }
+            ],
+            '/tang/mservice/': [
+                {
+                    text: '微服务学习',
+                    children: [
+                        '/tang/mservice/2.md',
+                        '/tang/mservice/1.md'
+                    ]
+                }
+            ],
+            '/tang/Vue/': [
+                {
+                    text: 'Vue',
+                    children: [
+                        '/tang/Vue/1.md',
+                        '/tang/Vue/2.md',
+                        '/tang/Vue/3.md',
+                    ]
+                }
+            ],
+            '/tang/server/': [
+                {
+                    text: '服务器',
+                    children: [
+                        '/tang/server/part1.md',
+                        '/tang/server/part2.md',
+                        '/tang/server/part2.md',
+                        '/tang/server/part4.md',
+                        '/tang/server/part5.md',
+                        '/tang/server/part6.md',
+                        '/tang/server/part7.md',
+                    ]
+                }
+            ],
+
+            '/tang/k8s/': [
+                {
+                    text: 'k8s',
+                    children: [
+                        {
+                            text: '学习资料',
+                            children: [
+                                '/tang/k8s/学习资料/command.md',
+                                '/tang/k8s/学习资料/blog.md',
+                                '/tang/k8s/学习资料/ftp.md',
+                                '/tang/k8s/学习资料/auto.md',
+                            ]
+                        },
+                        {
+                            text: '错误集锦',
+                            children: [
+                                '/tang/k8s/错误集锦/6443_connect-refused.md',
+                                '/tang/k8s/错误集锦/1.md',
+                                '/tang/k8s/错误集锦/2.md',
+                                '/tang/k8s/错误集锦/3.md',
+                                '/tang/k8s/错误集锦/4.md',
+                            ]
+                        }
+                    ]
+                }
+            ],
             '/JavaScript/es6/': [
                 {
                     text: 'ES6入门',
@@ -112,7 +263,10 @@ module.exports = {
             '/JavaScript/design/': [
                 {
                     text: '设计模式',
-                    children: ['/JavaScript/design/readme.md'],
+                    children: [
+                        '/JavaScript/design/readme.md',
+                        '/JavaScript/design/part1.md'
+                    ],
                 },
             ],
             '/formwork/vue/': [
@@ -135,6 +289,7 @@ module.exports = {
                         '/notes/JS/modules.md',
                         '/notes/JS/pro-compile.md',
                         '/notes/JS/buding.md',
+                        '/notes/JS/usually-functions.md',
                     ],
                 },
             ],
