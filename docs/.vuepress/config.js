@@ -19,10 +19,10 @@ module.exports = {
                         text: 'gitlab',
                         link: '/tang/gitlab/gitlab-error.md'
                     },
-                    {
-                        text: 'java基础',
-                        link: '/tang/java/part1.md'
-                    },
+                    // {
+                    //     text: 'java基础',
+                    //     link: '/tang/java/java基础知识.md'
+                    // },
                     {
                         text: 'k8s',
                         link: '/tang/k8s/学习资料/command.md'
@@ -128,17 +128,14 @@ module.exports = {
                     ]
                 }
             ],
-            '/tang/java/': [
-                {
-                    text: 'java基础',
-                    children: [
-                        '/tang/java/part1.md',
-                        '/tang/java/2.md',
-                        '/tang/java/4.md',
-                        '/tang/java/3.md',
-                    ]
-                }
-            ],
+            // '/tang/java/': [
+            //     {
+            //         text: 'java基础',
+            //         children: [
+            //             '/tang/java/java基础知识.md',
+            //         ]
+            //     }
+            // ],
             '/tang/mysql/': [
                 {
                     text: 'mysql',
