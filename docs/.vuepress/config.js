@@ -290,6 +290,8 @@ module.exports = {
                         '/formwork/vue3/reactive/part2.md',
                         '/formwork/vue3/reactive/part3.md',
                         '/formwork/vue3/reactive/part9.md',
+                        '/formwork/vue3/reactive/part10.md',
+                        '/formwork/vue3/reactive/part11.md',
                     ],
                 },
             ],
