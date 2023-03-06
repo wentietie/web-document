@@ -29,7 +29,7 @@ module.exports = {
                     },
                     {
                         text: 'mysql',
-                        link: '/tang/mysql/1.md'
+                        link: '/tang/mysql/MySQL学习之基础篇.md'
                     },
                     {
                         text: 'Prometheus',
@@ -80,6 +80,10 @@ module.exports = {
                     {
                         text: 'vue2',
                         link: '/formwork/vue/vueyuanli.md'
+                    },
+                    {
+                        text: 'vue3',
+                        link: '/formwork/vue3/reactive/part1.md'
                     },
                 ],
             },
@@ -140,7 +144,7 @@ module.exports = {
                 {
                     text: 'mysql',
                     children: [
-                        '/tang/mysql/1.md',
+                        '/tang/mysql/MySQL学习之基础篇.md',
                     ]
                 }
             ],
@@ -275,6 +279,17 @@ module.exports = {
                         '/formwork/vue/vue-slsx.md',
                         '/formwork/vue/fzzj.md',
                         '/formwork/vue/ysbd.md',
+                    ],
+                },
+            ],
+            '/formwork/vue3/': [
+                {
+                    text: 'VUE3 入门',
+                    children: [
+                        '/formwork/vue3/reactive/part1.md',
+                        '/formwork/vue3/reactive/part2.md',
+                        '/formwork/vue3/reactive/part3.md',
+                        '/formwork/vue3/reactive/part9.md',
                     ],
                 },
             ],
