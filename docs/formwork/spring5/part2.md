@@ -179,9 +179,9 @@ Bean管理
         1. 一对多关系
 
         2. 在实体类之间表示
-        
+
         3. 配置
-        
+
            ```xml
            <bean id="emp" class="com.spring5.study.innerBean.Emp">
                <property name="employeeName" value="文阿铁"></property>
@@ -269,8 +269,10 @@ Bean管理
 #### 提取集合属性注入
 
 util使用步骤
+
 1. xmlns:util="http://www.springframework.org/schema/util"
-2. xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+2. xsi:
+   schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
    http://www.springframework.org/schema/util  http://www.springframework.org/schema/util/spring-util.xsd"
 3. `<util:list></util:list>`
 
@@ -300,16 +302,101 @@ util使用步骤
 ```
 
 #### FactoryBean
+
 1. 普通bean： 在配置文件中定义的bean类型就是返回类型
 2. 工厂bean：在配置文件中定义的bean和返回的额类型可能不一样
-
-
 
 ### bean的作用域
 
 1. 设置创建的bean实例是单例还是多个实例
 2. 默认是单例
-3. 设置方式  bean标签的scope属性 singleton | prototype | request | session
+3. 设置方式 bean标签的scope属性 singleton | prototype | request | session
+
+### bean生命周期
+
+1. 通过构造器 创建bean实例（实例化）
+2. 为bean的属性设置值或者对其他bean的引用（属性赋值）
+3. 调用bean的初始化方法（初始化）
+4. 当容器关闭时，调用bean的销毁的方法（销毁）
+
+```java
+public class Lifecycle {
+  public Lifecycle() {
+    System.out.println("1. 执行构造方法");
+  }
+
+  private String cycle;
+
+  public void setCycle(String cycle) {
+    this.cycle = cycle;
+    System.out.println("2. 执行了set方法");
+  }
+
+  // 创建初始化方法
+  public void init() {
+    System.out.println("3. 执行了初始化");
+  }
+
+  // 创建销毁方法
+  public void destroy() {
+    System.out.println("4. 执行了销毁");
+  }
+}
+
+public class Test {
+  @org.junit.Test
+  public void test() {
+    ClassPathXmlApplicationContext context =
+        new ClassPathXmlApplicationContext("com/spring5/study/bean/lifecycle/bean1.xml");
+    Lifecycle lifecycle = context.getBean("lifecycle", Lifecycle.class);
+    System.out.println(lifecycle);
+    context.close();
+  }
+}
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="lifecycle" class="com.spring5.study.bean.lifecycle.Lifecycle" init-method="init" destroy-method="destroy">
+        <property name="cycle" value="生命周期"></property>
+    </bean>
+</beans>
+```
+
+### xml 自动装配
+
+使用bean标签的autowire属性实现自动装配。
+autowire常用值：
+
+1. byName 变量名要和使用的bean id相同
+2. byType 不能定义多个相同类型的bean
+
+### 外部配置文件
+
+1. 新建.properties文件
+2. 在bean.xml文件中引入 context，使用context引入properties文件
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--引入文件-->
+    <context:property-placeholder location="classpath:com/spring5/study/autowire/jdbc.properties"/>
+    <!--配置数据库链接-->
+    <bean id="dataSource" class="com.spring5.study.autowire.Emp">
+        <property name="driverClassName" value="${prop.driverClass}"/>
+        <property name="url" value="${prop.url}"/>
+        <property name="username" value="${prop.username}"/>
+        <property name="password" value="${prop.password}"/>
+    </bean>
+</beans>
+```
 
 ## 基于注解
 
