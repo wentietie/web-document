@@ -17,13 +17,17 @@ export default defineUserConfig({
             link: '/tang/docker/readme.md'
           },
           {
+            text: 'Elasticsearch',
+            link: '/tang/Elasticsearch/Part1.md'
+          },
+          {
             text: 'gitlab',
             link: '/tang/gitlab/gitlab-error.md'
           },
-          // {
-          //     text: 'java基础',
-          //     link: '/tang/java/java基础知识.md'
-          // },
+          {
+              text: 'java基础',
+              link: '/tang/java/JUC并发编程.md'
+          },
           {
             text: 'k8s',
             link: '/tang/k8s/学习资料/command.md'
@@ -51,6 +55,10 @@ export default defineUserConfig({
           {
             text: '微服务',
             link: '/tang/mservice/2.md'
+          },
+          {
+            text: '项目上线',
+            link: '/tang/项目上线/记一次小程序接口的发布.md'
           }
         ]
       },
@@ -137,14 +145,28 @@ export default defineUserConfig({
           ]
         }
       ],
-      // '/tang/java/': [
-      //     {
-      //         text: 'java基础',
-      //         children: [
-      //             '/tang/java/java基础知识.md',
-      //         ]
-      //     }
-      // ],
+      '/tang/Elasticsearch/': [
+        {
+          text: 'Elasticsearch',
+          children: [
+            '/tang/Elasticsearch/Part1.md',
+            '/tang/Elasticsearch/Part2.md',
+            '/tang/Elasticsearch/Part3.md',
+            '/tang/Elasticsearch/Part4.md',
+            '/tang/Elasticsearch/Part5.md',
+            '/tang/Elasticsearch/Part6.md',
+            '/tang/Elasticsearch/Part7.md',
+          ]
+        }
+      ],
+      '/tang/java/': [
+          {
+              text: 'java基础',
+              children: [
+                  '/tang/java/JUC并发编程.md',
+              ]
+          }
+      ],
       '/tang/mysql/': [
         {
           text: 'mysql',
@@ -204,7 +226,6 @@ export default defineUserConfig({
           ]
         }
       ],
-
       '/tang/k8s/': [
         {
           text: 'k8s',
@@ -228,6 +249,14 @@ export default defineUserConfig({
                 '/tang/k8s/错误集锦/4.md',
               ]
             }
+          ]
+        }
+      ],
+      '/tang/项目上线/': [
+        {
+          text: '项目上线',
+          children: [
+            '/tang/项目上线/记一次小程序接口的发布.md',
           ]
         }
       ],
