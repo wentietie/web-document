@@ -57,6 +57,10 @@ export default defineUserConfig({
       {
         text: '前端基础',
         children: [
+          {
+              text: 'JS基础',
+              link: '/JavaScript/basic/part1.md'
+          },
           // {
           //     text: 'JS高级程序设计',
           //     link: '/JavaScript/es6/es6-1.md'
@@ -328,6 +332,8 @@ export default defineUserConfig({
             '/notes/JS/pro-compile.md',
             '/notes/JS/buding.md',
             '/notes/JS/usually-functions.md',
+            '/notes/JS/webpack-optimize.md',
+            '/notes/JS/vue-webpack-optimize.md',
           ],
         },
       ],
@@ -347,6 +353,7 @@ export default defineUserConfig({
             '/notes/CSS/css-selector.md',
             '/notes/CSS/flex.md',
             '/notes/CSS/CSSchangyong.md',
+            '/notes/CSS/autoheight.md',
           ],
         },
       ],

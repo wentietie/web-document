@@ -399,4 +399,11 @@ autowire常用值：
 ```
 
 ## 基于注解
+Spring提供的注解
+1. @Component
+2. @Service
+3. @Controller
+4. @Repository
 
+:::tip 上述注解功能相同，都可以用来创建bean实例
+:::
