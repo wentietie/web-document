@@ -1,9 +1,11 @@
 # gitlab 报错
-# 1.gitlab报503错误
+## 1 gitlab报503错误
 
-# ![gitlab_error_1](./images/gitlab报错/gitlab_error_1.png)
+> 报错描述
 
-解决步骤：
+ ![gitlab_error_1](./images/gitlab报错/gitlab_error_1.png)
+
+> 解决步骤：
 
 1.查看gitlab状态
 
