@@ -6,9 +6,11 @@
 show databases;
 ```
 
-- “information_schema”是 MySQL 系统自带的数据库，主要保存 MySQL 数据库服务器的系统信息， 比如数据库的名称、数据表的名称、字段名称、存取权限、数据文件 所在的文件夹和系统使用的 文件夹，等等
+- “information_schema”是 MySQL 系统自带的数据库，主要保存 MySQL 数据库服务器的系统信息， 比如数据库的名称、数据表的名称、字段名称、存取权限、数据文件
+  所在的文件夹和系统使用的 文件夹，等等
 - “performance_schema”是 MySQL 系统自带的数据库，可以用来监控 MySQL 的各类性能指标。
-- “sys”数据库是 MySQL 系统自带的数据库，主要作用是以一种更容易被理解的方式展示 MySQL 数据 库服务器的各类性能指标，帮助系统管理员和开发人员监控 MySQL 的技术性能。
+- “sys”数据库是 MySQL 系统自带的数据库，主要作用是以一种更容易被理解的方式展示 MySQL 数据 库服务器的各类性能指标，帮助系统管理员和开发人员监控
+  MySQL 的技术性能。
 - “mysql”数据库保存了 MySQL 数据库服务器运行时需要的系统信息，比如数据文件夹、当前使用的 字符集、约束检查信息，等等
 
 ## 5.2 查看库、表的创建信息
@@ -42,14 +44,15 @@ mysql> describe dw_project; #也可以使用d
 
 - 语法： `limit 位置偏移量, 行数`，其中位置偏移量可省（省略时表示从0开始）
 - **limit字句必须放在select语句的最后！**
-- <front style="background: yellow">MySQL8.0新特性</front>：`limit 行数 offset 位置偏移量` 和  `limit 位置偏移量, 行数`效果一致
+- <front style="background: yellow">MySQL8.0新特性</front>：`limit 行数 offset 位置偏移量` 和  `limit 位置偏移量, 行数`
+  效果一致
 - 使用limit的优点：
-  - 减少表的网格传输量，提升查询效率。
-  - 当知道返回结果只有1条时，就可以使用`limit 1`，这样不需扫描整张表，从而提升效率
+    - 减少表的网格传输量，提升查询效率。
+    - 当知道返回结果只有1条时，就可以使用`limit 1`，这样不需扫描整张表，从而提升效率
 
 ## 5.5 多表查询
 
-![](../images/05_多表查询.png)
+![](./images/05_多表查询.png)
 
 - `inner join ... on`或`join ... on`：内连接。`A inner join B ... on`表示取A和B的交集
 
@@ -59,15 +62,16 @@ mysql> describe dw_project; #也可以使用d
 
 - `union`或`union all`：合并查询结果。即将多条select的结果集组合成一个结果集。
 
-  - `union`：返回两个查询结果集的并集，并**去除重复记录**。
+    - `union`：返回两个查询结果集的并集，并**去除重复记录**。
 
-  - `union all`：返回两个查询结果集的并集，**不去重，效率高**
+    - `union all`：返回两个查询结果集的并集，**不去重，效率高**
 
-    当明知道合并数据后的结果不存在重复数据，或者不需要去重的情况下，尽量使用`union all`。
+      当明知道合并数据后的结果不存在重复数据，或者不需要去重的情况下，尽量使用`union all`。
 
-- `natural join`：自然连接。<front style="background: yellow">SQL99新特性</front>。会自动查询两张表中**所有同名的字段**，并对它们进行**等值连接**
+- `natural join`：自然连接。<front style="background: yellow">SQL99新特性</front>。会自动查询两张表中**所有同名的字段**
+  ，并对它们进行**等值连接**
 
-  在SQL92标准中： 
+  在SQL92标准中：
 
   ```mysql
   SELECT employee_id,last_name,department_name
@@ -83,9 +87,10 @@ mysql> describe dw_project; #也可以使用d
   NATURAL JOIN departments d;
   ```
 
-- `join ... using(字段名)`：<front style="background: yellow">SQL99新特性</front>。**指定数据表里的同名字段**进行**等值连接**，**只能配合join使用**。
+- `join ... using(字段名)`：<front style="background: yellow">SQL99新特性</front>。**指定数据表里的同名字段**进行**等值连接
+  **，**只能配合join使用**。
 
-  在SQL92标准中： 
+  在SQL92标准中：
 
   ```mysql
   SELECT employee_id,last_name,department_name
@@ -109,7 +114,8 @@ mysql> describe dw_project; #也可以使用d
 
 ## 5.6 编码集设置
 
-在**MySQL 8.0版本之前**，默认字符集为latin1，utf8字符集指向的是utf8mb3，如果没有修改编码，**会出现乱码问题**。但是从MySQL 8.0 开始，数据库的默认编码改为 utf8mb4，从而避免了乱码问题。因此，此处编码集设置是**针对MySQL5.7版本**。
+在**MySQL 8.0版本之前**，默认字符集为latin1，utf8字符集指向的是utf8mb3，如果没有修改编码，**会出现乱码问题**。但是从MySQL 8.0
+开始，数据库的默认编码改为 utf8mb4，从而避免了乱码问题。因此，此处编码集设置是**针对MySQL5.7版本**。
 
 > 问题再现
 

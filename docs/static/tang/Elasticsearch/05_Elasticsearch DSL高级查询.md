@@ -58,10 +58,13 @@ POST _bulk
 ## 5.2 DSL使用-单条件查询
 
 ### 5.2.1 查询所有（match_all）
+
 ```
 GET /索引名/_search
 ```
+
 或
+
 ```
 GET /索引名/_search
 {
@@ -87,7 +90,9 @@ GET /索引名/_search
 ![](./images/Part5/match_search.png)
 
 ### 5.2.3 补充：条件删除
+
 将查询到的记录删除
+
 ```
 POST /索引名/_delete_by_query
 {
@@ -112,10 +117,12 @@ POST /索引名/_search
   }
 }
 ```
+
 ![](./images/Part5/multi_match_search.png)
 
 ### 5.2.5 前缀匹配
->概念
+
+> 概念
 
 前缀匹配是说，在分词结果中，如果某个分词的前缀和要查询的信息一样，就会将该记录返回。
 
@@ -134,9 +141,10 @@ POST /索引名/_search
 }
 ```
 
-![](docs/tang/Elasticsearch/images/Part5/multi_match_search.png)
+![](./images/Part5/multi_match_search.png)
 
 ## 5.2.6 关键字精确查询（term）
+
 > term
 
 查询信息不会进行分词
@@ -175,9 +183,9 @@ POST /索引名/_search
 
 ![](./images/Part5/terms_searcj.png)
 
-
 ### 5.2.8 范围查询（range）
->range
+
+> range
 
 * gte：大于等于
 * lte：小于等于
@@ -201,6 +209,7 @@ POST /索引名/_search
 ![](./images/Part5/range_search.png)
 
 ### 5.2.9 指定返回字段
+
 **query同级增加_source进行过滤。**
 
 ```
@@ -221,9 +230,11 @@ POST /索引名/_search
 ![](./images/Part5/with_source_search.png)
 
 ## 5.3 DSL使用-组合条件查询
->语法
+
+> 语法
 
 bool各条件之间都有and、or或no的关系。
+
 * must：各个条件都必须满足，即所有条件是and关系
 * should：各个条件有一个满足即可，即各条件是or关系
 * must_not：不满足所有条件，即各条件是no关系
@@ -231,6 +242,7 @@ bool各条件之间都有and、or或no的关系。
 * 如果must和should同时存在，会对must结果和should结果取交集
 
 ### 5.3.1 must
+
 ```
 POST /my_index/_search
 {
@@ -249,6 +261,7 @@ POST /my_index/_search
 ![](./images/Part5/must_search.png)
 
 ### 5.3.2 should
+
 ```
 POST /my_index/_search
 {
@@ -263,9 +276,11 @@ POST /my_index/_search
   }
 }
 ```
+
 ![](./images/Part5/should_search.png)
 
 ### 5.3.3 must_not
+
 很少用
 
 ```
@@ -286,6 +301,7 @@ POST /索引名/_search
 ![](./images/Part5/must_not_search.png)
 
 ### 5.3.4 filter
+
 不会计算分数。在不需要排名的时候才使用，效率比must快一些。
 
 ```
@@ -306,11 +322,13 @@ POST /索引名/_search
 ![](./images/Part5/filter_search.png)
 
 ## 5.4 DSL使用-聚合查询（指标聚合）
->概念
+
+> 概念
 
 允许使用者对es文档进行统计分析，类似于关系型数据库中的group by。此外还有许多其他聚合查询，如取最大值、平均值等。
 
 es的聚合查询和MySQL的group by效率差不多，但是es的优点是它是分布式的。真正做数据分析的时候，还需要考虑具体情况：
+
 * 如果是非结构化的数据，如日志分析、用户行为分析，则考虑使用es的聚合查询
 * 如果是结构化数据，考虑使用关系型数据库
 
@@ -322,7 +340,7 @@ es的聚合查询和MySQL的group by效率差不多，但是es的优点是它是
 * sum 求和
 * stats 统计
 
->语法
+> 语法
 
 ```
 POST /索引名/_search
@@ -339,21 +357,22 @@ POST /索引名/_search
 }
 ```
 
->举例：max
+> 举例：max
 
 ![](./images/Part5/aggs_max_search.png)
 
->举例：stats
+> 举例：stats
 
 ![](./images/Part5/aggs_stats_search.png)
 
 ## 5.5 DSL使用-聚合查询（桶聚合）
 
->概念
+> 概念
 
 桶聚合相当于mysql的group by
 
 > 桶聚合关键字
+
 * terms
 
 ### 5.5.1 桶聚合的基本使用
@@ -385,7 +404,7 @@ POST /索引名/_search
 对桶聚合还可以继续下钻，即桶聚合和指标聚合的组合使用
 
 > 语法
- 
+
  ```
  POST /索引名/_search
  {
