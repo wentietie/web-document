@@ -274,7 +274,7 @@ const copyJson = (jsonData) => {
 <style scoped>
 .json-content {
   width: 100%;
-  height: calc(100vh - 190px);
+  height: calc(100vh - 340px);
   display: flex;
   align-items: center;
   justify-content: space-between;

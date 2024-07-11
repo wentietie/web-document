@@ -20,7 +20,7 @@ export default defineUserConfig({
     searchPlugin({}),
     registerComponentsPlugin({
       // 配置项
-      componentsDir: resolve(__dirname, './components')
+      componentsDir: resolve(__dirname, './components'),
     })
   ],
   // ======================配置插件 End=================================
@@ -33,6 +33,18 @@ export default defineUserConfig({
           {
             text: 'JSON工具',
             link: '/static/utils/jsonutil.md'
+          },
+          {
+            text: 'JSON View',
+            link: '/static/utils/jsonView.md'
+          },
+          {
+            text: '文件转base64',
+            link: '/static/utils/fileToBase64.md'
+          },
+          {
+            text: '图片压缩',
+            link: '/static/utils/imgZip.md'
           }
         ]
       },
@@ -195,6 +207,18 @@ export default defineUserConfig({
             {
               text: 'JSON比对工具',
               link: '/static/utils/jsonutil.md'
+            },
+            {
+              text: 'JSON View',
+              link: '/static/utils/jsonView.md'
+            },
+            {
+              text: '文件转base64',
+              link: '/static/utils/fileToBase64.md'
+            },
+            {
+              text: '图片压缩',
+              link: '/static/utils/imgZip.md'
             }
           ]
         }

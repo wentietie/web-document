@@ -1,4 +1,5 @@
 # CentOS7安装redis
+
 # 1.安装gcc
 
 ```shell
@@ -30,7 +31,8 @@ cd src
 make install
 ```
 
-**如果执行make的时候报错**： `redis编译报致命错误：jemalloc/jemalloc.h：没有那个文件或目录` ，将make命令改为`make MALLOC=libc`
+**如果执行make的时候报错**： `redis编译报致命错误：jemalloc/jemalloc.h：没有那个文件或目录`
+，将make命令改为`make MALLOC=libc`
 
 # 5.设置后台启动redis
 
