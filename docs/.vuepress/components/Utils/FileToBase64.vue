@@ -41,7 +41,7 @@ const beforeUpload = (file) => {
 <style scoped>
 .text {
   margin-top: 10px;
-  height: calc(100vh - 400px);
+  height: calc(100vh - 445px);
   resize: none;
 }
 </style>

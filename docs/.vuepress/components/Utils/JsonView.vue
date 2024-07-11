@@ -35,7 +35,7 @@ const jsonValue = computed(() => {
 
 <style scoped>
 .tab-content {
-  height: calc(100vh - 340px);
+  height: calc(100vh - 350px);
 }
 
 .viewer {
